@@ -1,0 +1,11 @@
+*~
+*.bak
+target
+.project
+.classpath
+.settings
+.idea/
+*.iml
+release/
+.mymetadata
+src/main/webapp/META-INF
