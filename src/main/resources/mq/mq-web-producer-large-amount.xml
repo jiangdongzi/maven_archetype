@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+       default-autowire="byName">
+
+    <import resource="classpath:META-INF/spring/mq-common-producer.xml"/>
+    <import resource="classpath:mq/mq-web-activemq.xml"/>
+
+    <bean id="largeAmountMessageJMSTemplate" parent="commonJMSTemplate" lazy-init="true"
+          class="com.xiaomi.cashpay.mq.sender.XJmsTemplate">
+        <property name="connectionPostProcessor" ref="largeAmountMessageXConnectionPostProcessor"/>
+    </bean>
+
+    <bean id="largeAmountMessageSenderBuilder" lazy-init="true"
+          class="com.xiaomi.cashpay.mq.ProducerBuilder">
+        <property name="jmsTemplate" ref="largeAmountMessageJMSTemplate"/>
+        <property name="destinationName" value="${cmf_token_expire_mq}"/>
+    </bean>
+
+</beans>

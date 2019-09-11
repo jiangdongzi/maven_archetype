@@ -3,9 +3,11 @@
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="fileset" name="Redis_cfg" removed="false">
-          <file>file://$MODULE_DIR$/src/main/resources/redis_cfg.xml</file>
+        <fileset id="fileset2" name="Mq Web Producer Large Amount" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/mq/mq-web-producer-large-amount.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/mq/mq_test.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/redis_cfg.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -34,5 +36,90 @@
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:3.2.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: redis.clients:jedis:2.9.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-pool2:2.4.2" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi.cashpay.mq:mq-common:1.0.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi.cashpay:cashpay-logger-log4j2:1.1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi.cashpay:cashpay-logger-common:1.1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi.infra.galaxy:galaxy-lcs-common:2.0.26" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi.infra.galaxy:galaxy-lcs-thrift:2.0.26" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi.infra.galaxy:galaxy-talos-sdk:2.3.3" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi.infra.galaxy:galaxy-client-java:1.2.5" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.uuid:java-uuid-generator:3.1.3" level="project" />
+    <orderEntry type="library" name="Maven: org.xerial.snappy:snappy-java:1.1.1.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.2.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi.infra.galaxy:galaxy-thrift-api:1.2.8" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi.infra.galaxy:galaxy-talos-common:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi.infra:hbase-client:1.8.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.zookeeper:zookeeper:3.4.4-mdh1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.netty:netty:3.2.2.Final" level="project" />
+    <orderEntry type="library" name="Maven: jline:jline:0.9.94" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi.infra:themis-client:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi.infra:themis-coprocessor:tests:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi.infra:chronos-client:1.2.1-thrift0.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi.infra:themis-coprocessor:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi:xiaomi-thrift-scribe:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi:xiaomi-common-zookeeper:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: zkclient:zkclient:0.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi:xiaomi-common-dal:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter.common:util:0.0.92" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter.common:util-executor-service-shutdown:0.0.47" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter.common:jdk-logging:0.0.41" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter.common:base:0.0.82" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter.common:util-system-mocks:0.0.67" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter.common:collections:0.0.69" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter.common:quantity:0.0.66" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter.common:stats:0.0.89" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter.common:stat-registry:0.0.24" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter.common:stat:0.0.26" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter.common:stats-provider:0.0.53" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter.common:application-action:0.0.66" level="project" />
+    <orderEntry type="library" name="Maven: com.google.inject:guice:3.0" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter.common:util-sampler:0.0.50" level="project" />
+    <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.mail:javax.mail:1.5.6" level="project" />
+    <orderEntry type="library" name="Maven: javax.activation:activation:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.curator:curator-test:2.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.15.0-GA" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-math:2.2" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:11.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:1.3.9" level="project" />
+    <orderEntry type="library" name="Maven: dnsjava:dnsjava:2.1.8" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:20090211" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi.infra.galaxy:galaxy-lcs-log-core:2.0.26" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi.infra.galaxy:galaxy-lcs-monitor-client:2.0.26" level="project" />
+    <orderEntry type="library" name="Maven: com.codahale.metrics:metrics-core:3.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.thrift:thrift:0.5.0-fix-thrift2402" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.2.4" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi.data:data-platform-spec-mipay:0.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.10.0" level="project" />
+    <orderEntry type="library" name="Maven: com.lmax:disruptor:3.3.7" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi:scribe-log4j2:3.0.9" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi:xlogger-core:3.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.1" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi.common.perfcounter:xiaomi-common-perfcounter:2.6.9" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi:xiaomi-common-utils:2.6.9" level="project" />
+    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Maven: com.yammer.metrics:metrics-core:2.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.8.4" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.8.4" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.28" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-1.2-api:2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jms:4.2.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-messaging:4.2.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:4.2.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.xiaomi.cashpay.mq:mq-cmf-activemq:1.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.activemq:activemq-client:5.15.9" level="project" />
+    <orderEntry type="library" name="Maven: org.fusesource.hawtbuf:hawtbuf:1.11" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.activemq:activemq-pool:5.12.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.activemq:activemq-jms-pool:5.12.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:1.0.1" level="project" />
   </component>
 </module>

@@ -6,10 +6,21 @@
 
 
     <import resource="redis_cfg.xml"/>
+    <import resource="mq/mq_test.xml"/>
 
     <bean class="TestBean">
         <property name="name" value="jxj"/>
         <property name="id" value="17"/>
+    </bean>
+
+    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="order" value="1" />
+        <property name="ignoreUnresolvablePlaceholders" value="true" />
+        <property name="locations">
+            <list>
+                <value>classpath:app.properties</value>
+            </list>
+        </property>
     </bean>
 
 </beans>

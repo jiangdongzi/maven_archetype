@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="classpath:META-INF/spring/mq-common-consumer.xml"/>
+    <import resource="classpath:META-INF/spring/mq-cmf-activemq.xml"/>
+    <import resource="classpath:mq/mq-web-producer-large-amount.xml"/>
+
+    <bean id="largeAmountMessageXConnectionPostProcessor" lazy-init="true" scope="singleton"
+          class="com.xiaomi.cashpay.mq.processor.activemq.ActiveMQConnectionPostProcessor">
+        <property name="prefetchPolicy">
+            <bean class="org.apache.activemq.ActiveMQPrefetchPolicy">
+                <property name="queuePrefetch" value="0"/>
+                <property name="queueBrowserPrefetch" value="0"/>
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="largeAmountMessageHandler" lazy-init="true" scope="singleton"
+          class="com.xiaomi.cashpay.mq.consumer.handler.LargeAmountHandler"/>
+
+    <bean id="largeAmountHandlerBuilder" scope="singleton"
+          init-method="initialize" class="com.xiaomi.cashpay.mq.consumer.handler.LargeAmountHandlerBuilder">
+        <property name="commonMessageConverter" ref="simpleMessageConverter"/>
+        <property name="commonConnectionFactory" ref="commonConnectionFactory"/>
+        <property name="commonSessionTransacted" value="true"/>
+        <property name="commonErrorHandler" ref="simpleErrorHandler"/>
+        <property name="commonRecoveryInterval" value="5000"/>
+        <property name="commonConnectionPostProcessor" ref="largeAmountMessageXConnectionPostProcessor"/>
+        <property name="largeAmountHandler" ref="largeAmountMessageHandler"/>
+        <property name="producerBuilder" ref="largeAmountMessageSenderBuilder"/>
+    </bean>
+
+</beans>
