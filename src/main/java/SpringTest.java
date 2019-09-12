@@ -10,12 +10,15 @@ import java.sql.SQLOutput;
 @ContextConfiguration(value="classpath:applicationContext.xml")
 public class SpringTest {
 
+
     @Autowired
     private TestBean testBean;
     @Test
-    public void test()
-    {
+    public void test() throws InterruptedException {
         System.out.println(testBean.getId());
         System.out.println(testBean.getName());
+        System.out.println("--------------------------------------");
+        System.out.println("test thread Name = " + Thread.currentThread());
+        Thread.sleep(100000);
     }
 }

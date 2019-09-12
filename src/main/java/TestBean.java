@@ -1,4 +1,5 @@
 public class TestBean {
+    public static Thread t;
     private String name;
     private Integer id;
 

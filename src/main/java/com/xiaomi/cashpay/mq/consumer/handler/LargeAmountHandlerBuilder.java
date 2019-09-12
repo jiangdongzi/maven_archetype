@@ -1,5 +1,6 @@
 package com.xiaomi.cashpay.mq.consumer.handler;
 
+import com.xiaomi.cashpay.mq.Constants;
 import com.xiaomi.cashpay.mq.ProducerBuilder;
 import com.xiaomi.cashpay.mq.listener.XMessageListenerContainer;
 import com.xiaomi.cashpay.mq.processor.XConnectionPostProcessor;
@@ -14,7 +15,6 @@ import javax.jms.ConnectionFactory;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
-
 /**
  * Created by song.yang on 18-12-12 下午4:06
  * <p>
@@ -43,6 +43,7 @@ public class LargeAmountHandlerBuilder {
     private String largeAmountConcurrency = "2-4";
 
     public void initialize() throws InterruptedException {
+        System.out.println(".............................................spring thread = ." + Thread.currentThread());
 
         System.out.println("init large amount handler");
 
@@ -55,7 +56,14 @@ public class LargeAmountHandlerBuilder {
         largeAmountTaskExecutor.initialize();
         buildLargeAmountMessageListenerContainer();
         logger.info("finish build refund message listener container");
-        new Thread() {
+        Runtime.getRuntime().traceMethodCalls(true);
+        long start = System.currentTimeMillis();
+        logger.info("start time = {}", start);
+        largeAmountMessageListenerContainer.start();
+        long end = System.currentTimeMillis();
+        logger.info("end time = {}", end);
+        logger.info("end - start = {}", end - start);
+        Constants.t = new Thread() {
             public void run() {
                 logger.info("refund message listener container will be start after 60s");
                 try {
@@ -64,17 +72,19 @@ public class LargeAmountHandlerBuilder {
                 }
                 if (largeAmountMessageListenerContainer != null) {
                     System.out.println("start consume");
-                    largeAmountMessageListenerContainer.start();
+//                    largeAmountMessageListenerContainer.start();
                 }
             }
-        }.start();
+        };
+
+        Constants.t.start();
 
 
-        new Thread() {
+        Thread thread = new Thread() {
             public void run() {
                 System.out.println("start produce");
                 try {
-                    Thread.sleep(2000);
+                    Thread.sleep(20000);
                     while (true) {
                         System.out.println("send msg start");
                         producerBuilder.sendMessage("hello");
@@ -86,9 +96,11 @@ public class LargeAmountHandlerBuilder {
                     System.out.println(e.toString());
                 }
             }
-        }.start();
+        };
 
-        Thread.sleep(Long.parseLong("1000000"));
+        thread.start();
+
+        Constants.t1 = thread;
     }
 
     private void buildLargeAmountMessageListenerContainer() {
