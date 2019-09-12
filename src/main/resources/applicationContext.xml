@@ -5,4 +5,14 @@
        xsi:schemaLocation="
       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <bean id="aClazz" class="com.xiaomi.cashpay.async.service.AClazz" init-method="init">
+        <property name="a" value="17"/>
+        <property name="bClazz" ref="bClazz"/>
+    </bean>
+
+    <bean id="bClazz" class="com.xiaomi.cashpay.async.service.BClazz">
+        <property name="b" value="19"/>
+        <property name="aClazz" ref="aClazz"/>
+    </bean>
+
 </beans>
