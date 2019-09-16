@@ -1,5 +1,6 @@
 package com.xiaomi.cashpay.mq.consumer.handler;
 
+import com.google.common.util.concurrent.ThreadFactoryBuilder;
 import com.xiaomi.cashpay.mq.Constants;
 import com.xiaomi.cashpay.mq.ProducerBuilder;
 import com.xiaomi.cashpay.mq.listener.XMessageListenerContainer;
@@ -12,16 +13,20 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.util.ErrorHandler;
 
 import javax.jms.ConnectionFactory;
+import java.lang.reflect.WildcardType;
+import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.atomic.AtomicInteger;
+
 /**
  * Created by song.yang on 18-12-12 下午4:06
  * <p>
  * e-mail:yangsong5@xiaomi.com
  */
 public class LargeAmountHandlerBuilder {
-    private Logger logger = LoggerFactory.getLogger(LargeAmountHandlerBuilder.class);
+    private static Logger logger = LoggerFactory.getLogger(LargeAmountHandlerBuilder.class);
 
     //web大额动账mq并发数配置(zk)
 
@@ -42,14 +47,30 @@ public class LargeAmountHandlerBuilder {
     private XMessageListenerContainer largeAmountMessageListenerContainer = null;
     private String largeAmountConcurrency = "2-4";
 
+    private ExecutorService singleWorker;
+    public static Thread[] singleThreads = new Thread[5];
+    private AtomicInteger threadIdx = new AtomicInteger();
     public void initialize() throws InterruptedException {
         System.out.println(".............................................spring thread = ." + Thread.currentThread());
 
         System.out.println("init large amount handler");
+//        singleWorker = Executors.newFixedThreadPool(3);
+//        logger.info("single thread = {}", singleWorker);
 
+//        singleWorker.execute(new Runnable() {
+//            @Override
+//            public void run() {
+//                int curIdx = threadIdx.incrementAndGet();
+//                singleThreads[curIdx] = Thread.currentThread();
+//            }
+//        });
+
+        Thread.sleep(1000);
+
+//        logger.info("single thread = {}", singleWorker);
         largeAmountTaskExecutor = new ThreadPoolTaskExecutor();
-        largeAmountTaskExecutor.setCorePoolSize(5);
-        largeAmountTaskExecutor.setMaxPoolSize(10);
+        largeAmountTaskExecutor.setCorePoolSize(7);
+        largeAmountTaskExecutor.setMaxPoolSize(11);
         largeAmountTaskExecutor.setQueueCapacity(2000);
         largeAmountTaskExecutor.setKeepAliveSeconds(60);
         largeAmountTaskExecutor.setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy());
@@ -59,32 +80,37 @@ public class LargeAmountHandlerBuilder {
         Runtime.getRuntime().traceMethodCalls(true);
         long start = System.currentTimeMillis();
         logger.info("start time = {}", start);
-        largeAmountMessageListenerContainer.start();
+        logger.info("cfg_of_container = {}", largeAmountMessageListenerContainer);
+        Constants.toBeStart = largeAmountMessageListenerContainer;
         long end = System.currentTimeMillis();
         logger.info("end time = {}", end);
         logger.info("end - start = {}", end - start);
-        Constants.t = new Thread() {
-            public void run() {
-                logger.info("refund message listener container will be start after 60s");
-                try {
-                    Thread.sleep(2000);
-                } catch (InterruptedException e) {
-                }
-                if (largeAmountMessageListenerContainer != null) {
-                    System.out.println("start consume");
-//                    largeAmountMessageListenerContainer.start();
-                }
-            }
-        };
 
-        Constants.t.start();
+
+//        Constants.t = new Thread() {
+//            public void run() {
+//                logger.info("refund message listener container will be start after 60s");
+//                try {
+//                    Thread.sleep(2000);
+//                } catch (InterruptedException e) {
+//                }
+//                if (largeAmountMessageListenerContainer != null) {
+//                    System.out.println("start consume");
+////                    largeAmountMessageListenerContainer.start();
+//                }
+//            }
+//        };
+//
+//        Constants.t.start();
+
+
 
 
         Thread thread = new Thread() {
             public void run() {
                 System.out.println("start produce");
                 try {
-                    Thread.sleep(20000);
+                    Thread.sleep(2000);
                     while (true) {
                         System.out.println("send msg start");
                         producerBuilder.sendMessage("hello");
@@ -97,10 +123,47 @@ public class LargeAmountHandlerBuilder {
                 }
             }
         };
+//        thread.start();
 
-        thread.start();
 
-        Constants.t1 = thread;
+        for (int i = 0; i < 3; i++) {
+//            new Thread(new StackTask(singleThreads[i]));
+        }
+    }
+
+
+    private void printContainerCfg() {
+        logger.info("listener = {}", largeAmountMessageListenerContainer.getMessageListener());
+    }
+
+    private static class StackTask implements Runnable {
+        Thread singleThread;
+
+        public StackTask(Thread singleThread) {
+            this.singleThread = singleThread;
+        }
+
+        public Thread getSingleThread() {
+            return singleThread;
+        }
+
+        public void setSingleThread(Thread singleThread) {
+            this.singleThread = singleThread;
+        }
+
+        @Override
+        public void run() {
+            long c = 0;
+            while (true) {
+                while (singleThreads[0].getState() != Thread.State.WAITING)
+                {
+                    c++;
+                    for (StackTraceElement stackTraceElement : singleThread.getStackTrace()) {
+                        logger.info("c = {}, curStack = {}", c, stackTraceElement);
+                    }
+                }
+            }
+        }
     }
 
     private void buildLargeAmountMessageListenerContainer() {
@@ -118,6 +181,8 @@ public class LargeAmountHandlerBuilder {
             largeAmountMessageListenerContainer.setDestinationName(CMF_CASHIER_UPOP_TOKEN_EXPIRED_QUEUE);
             largeAmountMessageListenerContainer.setMessageListener(largeAmountMessageListener);
             largeAmountMessageListenerContainer.initialize();
+//            largeAmountMessageListenerContainer.setReceiveTimeout(-1);
+//            largeAmountMessageListenerContainer.setTransactionTimeout(-1);
     }
 
     public SimpleMessageConverter getCommonMessageConverter() {

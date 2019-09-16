@@ -121,5 +121,7 @@
     <orderEntry type="library" name="Maven: org.apache.activemq:activemq-pool:5.12.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.activemq:activemq-jms-pool:5.12.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.jcraft:jsch:0.1.54" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.json-simple:json-simple:1.1" level="project" />
   </component>
 </module>
