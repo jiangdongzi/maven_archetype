@@ -26,11 +26,12 @@ public class SocketServerExample {
             ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
             //convert ObjectInputStream object to String
             while (true) {
-                String message = (String) ois.readObject();
+//                String message = (String) ois.readObject();
+                String message = "abc";
                 System.out.println("Message Received: " + message);
                 //create ObjectOutputStream object
                 //write object to Socket
-                oos.writeObject("Hi Client "+message);
+//                oos.writeObject("Hi Client "+message);
                 Thread.sleep(8000);
             }
 

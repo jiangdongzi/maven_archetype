@@ -17,7 +17,7 @@ public class SpringTest {
     private TestBean testBean;
     @Test
     public void test() throws InterruptedException {
-        Constants.toBeStart.start();
+//        Constants.toBeStart.start();
         System.out.println(testBean.getId());
         System.out.println(testBean.getName());
         System.out.println("--------------------------------------");

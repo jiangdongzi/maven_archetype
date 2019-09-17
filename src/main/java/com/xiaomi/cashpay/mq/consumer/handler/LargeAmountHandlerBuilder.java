@@ -5,6 +5,8 @@ import com.xiaomi.cashpay.mq.Constants;
 import com.xiaomi.cashpay.mq.ProducerBuilder;
 import com.xiaomi.cashpay.mq.listener.XMessageListenerContainer;
 import com.xiaomi.cashpay.mq.processor.XConnectionPostProcessor;
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.jms.listener.adapter.MessageListenerAdapter;
@@ -113,8 +115,8 @@ public class LargeAmountHandlerBuilder {
                     Thread.sleep(2000);
                     while (true) {
                         System.out.println("send msg start");
-                        producerBuilder.sendMessage("hello");
-                        Thread.sleep(2000);
+                        producerBuilder.sendMessage(buildMsg());
+                        Thread.sleep(2000000);
                         System.out.println("end msg send");
                     }
                 } catch (Exception e) {
@@ -123,12 +125,30 @@ public class LargeAmountHandlerBuilder {
                 }
             }
         };
-//        thread.start();
+        thread.start();
 
 
         for (int i = 0; i < 3; i++) {
 //            new Thread(new StackTask(singleThreads[i]));
         }
+    }
+//l,"content":{"memberId":"119344101","cardNo":"622908323008791618","signNo":"5713334752288176",
+// "fundChannelCode":"UPOP30110","instOrderNo":"7510019091652196937"},"referenceId":null}
+    private String buildMsg() {
+        JSONObject content = new JSONObject();
+        try {
+            content.put("memberId", "135438936");
+            content.put("cardNo", "6227002470170278192");
+            content.put("signNo", "6227002470170278192");
+            content.put("fundChannelCode", "UPOP30110");
+            content.put("instOrderNo", "135438936");
+            JSONObject res = new JSONObject();
+            res.put("content", content);
+            return res.toString();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
 
