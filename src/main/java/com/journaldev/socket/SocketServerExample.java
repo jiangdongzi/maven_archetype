@@ -13,7 +13,7 @@ public class SocketServerExample {
     //socket server port on which it will listen
     private static int port = 9876;
 
-    public static void main(String args[]) throws IOException, ClassNotFoundException{
+    public static void main(String args[]) throws IOException, ClassNotFoundException, InterruptedException {
         //create the socket server object
         server = new ServerSocket(port);
         //keep listens indefinitely until receives 'exit' call or program terminates
@@ -31,6 +31,7 @@ public class SocketServerExample {
                 //create ObjectOutputStream object
                 //write object to Socket
                 oos.writeObject("Hi Client "+message);
+                Thread.sleep(8000);
             }
 
             //close resources
