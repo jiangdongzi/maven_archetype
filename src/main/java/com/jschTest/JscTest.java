@@ -5,6 +5,9 @@ import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.Session;
 
 import java.io.FileWriter;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.io.PrintWriter;
 import java.util.Properties;
 import java.util.Set;
 
@@ -23,15 +26,30 @@ public class JscTest {
         System.out.println("---------------");
         ChannelExec execChannel = (ChannelExec) sshSession.openChannel("exec");
 
-        execChannel.setCommand("ls;exit");
+        OutputStream os = execChannel.getOutputStream();
+        InputStream is = execChannel.getInputStream();
+        execChannel.setOutputStream(os);
+        PrintWriter pw = new PrintWriter(os);
+        pw.println("mvn clean compile");
 //        execChannel.setPty(false);
-//        execChannel.setOutputStream(System.out);
-//        execChannel.setErrStream(System.err);
-        execChannel.connect();
-        int a = 0;
-        Thread.sleep(500);
-        System.out.println("aaa");
-        getAllThread();
+        int cnt;
+        while (true) {
+            byte[] buf = new byte[128];
+            cnt = is.read(buf);
+            if (cnt == -1) {
+                break;
+            }
+            System.out.println(new String(buf) + "::" + cnt);
+        }
+        System.out.println("--------------" + cnt);
+        is.close();
+        System.exit(0);
+//        int a = 0;
+//        Thread.sleep(5000);
+//        execChannel.setCommand("pwd");
+//        execChannel.connect();
+//        System.out.println("aaa");
+//        getAllThread();
 //        new FileWriter("hello_jsh");
     }
 
