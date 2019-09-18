@@ -37,7 +37,9 @@ public class ClientExample {
                 System.out.println("read in client");
                 byte[] buf = new byte[1024];
                 int reCnt = is.read(buf);
-                System.out.println(Arrays.toString(buf) + "::" + reCnt);
+                System.out.println(reCnt);
+                Thread.sleep(3000);
+//                System.out.println(Arrays.toString(buf) + "::" + reCnt);
             }
         }
     }

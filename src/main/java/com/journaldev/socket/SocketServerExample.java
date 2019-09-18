@@ -32,7 +32,10 @@ public class SocketServerExample {
                 //create ObjectOutputStream object
                 //write object to Socket
 //                oos.writeObject("Hi Client "+message);
-                Thread.sleep(8000);
+                Thread.sleep(2000);
+                socket.shutdownOutput();
+                System.out.println("closed");
+                break;
             }
 
             //close resources
