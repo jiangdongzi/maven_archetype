@@ -116,7 +116,7 @@ public class LargeAmountHandlerBuilder {
                     while (true) {
                         System.out.println("send msg start");
                         producerBuilder.sendMessage(buildMsg());
-                        Thread.sleep(2000000);
+                        Thread.sleep(2000);
                         System.out.println("end msg send");
                     }
                 } catch (Exception e) {
