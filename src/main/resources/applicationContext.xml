@@ -6,10 +6,15 @@
 
 
     <import resource="redis_cfg.xml"/>
-    <import resource="mq/mq_test.xml"/>
+<!--    <import resource="mq/mq_test.xml"/>-->
 
-    <bean class="TestBean">
+    <bean class="TestBean" name="testA">
         <property name="name" value="jxj"/>
+        <property name="id" value="16"/>
+    </bean>
+
+    <bean class="TestBean" name="testB">
+        <property name="name" value="jxjaaa"/>
         <property name="id" value="17"/>
     </bean>
 

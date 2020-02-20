@@ -44,7 +44,7 @@
     <bean id="jedisCluster" class="redis.clients.jedis.JedisCluster">
         <constructor-arg name="jedisClusterNode" ref="jedisClusterNodes_staging" />
         <constructor-arg name="connectionTimeout" value="1000" />
-        <constructor-arg name="soTimeout" value="1000" />
+        <constructor-arg name="soTimeout" value="100" />
         <constructor-arg name="maxAttempts" value="5" />
         <constructor-arg name="password" value="MGJhNjY2NWVjMzEzNTY2NTAxNjljZThi" />
         <constructor-arg name="poolConfig" ref="jedisPoolConfig" />
