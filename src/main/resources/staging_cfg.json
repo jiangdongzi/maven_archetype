@@ -1,0 +1,3543 @@
+{
+  "adData": {
+    "title": {
+      "zh_CN": "最高可借30万",
+      "zh_TW": "最高可借30万",
+      "en_US": "最高可借30万"
+    },
+    "summary": {
+      "zh_CN": "点击领取",
+      "zh_TW": "点击领取",
+      "en_US": "点击领取"
+    },
+    "entry": {
+      "type": "WEB",
+      "id": "mipay.ad.insurance",
+      "url": "https://api.jr.mi.com/insurance/nettel.html?from=insads_mipay_specialBanner&source=p0&mifiInsFrom=insads_mipay_specialBanner#/jhact"
+    },
+    "image": "Mibi/0623505a9b0814b5d146cc3cd934bb6a0593cca40",
+    "deviceType": "all",
+    "loginType": "all",
+    "status": "on"
+  },
+  "personalData": [
+    {
+      "timeStamp": "1563264827000",
+      "id": "jr.loan",
+      "type": "LOCAL"
+    },
+    {
+      "timeStamp": "1563264827003",
+      "id": "mipay.moneyFund",
+      "type": "WEB"
+    },
+    {
+      "timeStamp": "1563264827002",
+      "id": "CustomerCenter.insurance",
+      "type": "WEB"
+    }
+  ],
+  "nfcData": [
+    {
+      "image": "Mibi/02c39577c26e67d2bd878278ec344e632ed4339eb",
+      "title": {
+        "zh_CN": "小米公交",
+        "zh_TW": "小米公交",
+        "en_US": "Transport card"
+      },
+      "entry": {
+        "type": "LOCAL",
+        "id": "mipay.nfcTrafficCard"
+      },
+      "index": "1",
+      "startTime": "",
+      "endTime": "",
+      "timeStamp": "1563264827000",
+      "loginType": "all"
+    },
+    {
+      "image": "Mibi/02c39577c26e67d2bd878378e534476323d4339eb",
+      "title": {
+        "zh_CN": "小米门卡",
+        "zh_TW": "小米門卡",
+        "en_US": "Card Key"
+      },
+      "entry": {
+        "type": "LOCAL",
+        "id": "mipay.cardEmulator"
+      },
+      "index": "2",
+      "startTime": "",
+      "endTime": "",
+      "timeStamp": "1563264827001",
+      "loginType": "all"
+    },
+    {
+      "image": "Mibi/0105ac5b5dc4942993dd7a7716ab7d84b964ca813",
+      "title": {
+        "zh_CN": "Mi Pay",
+        "zh_TW": "Mi Pay",
+        "en_US": "Mi Pay"
+      },
+      "entry": {
+        "type": "LOCAL",
+        "id": "mipay.nfcCardList"
+      },
+      "index": "3",
+      "startTime": "",
+      "endTime": "",
+      "timeStamp": "1563264827002",
+      "loginType": "all"
+    }
+  ],
+  "serviceData": {
+    "column": 4,
+    "services": [
+      {
+        "image": "Mibi/00c39b57cd6264d273878d78e9344e6827eb23332",
+        "title": {
+          "zh_CN": "贷款",
+          "zh_TW": "貸款",
+          "en_US": "Loan"
+        },
+        "entry": {
+          "type": "APP",
+          "id": "mipay.consumerLoan",
+          "intentUri": "intent://api.jr.mi.com/loan/?tintColor=4582e5&from=wallet#Intent;scheme=https;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=com.xiaomi.jr;end"
+        },
+        "index": "1",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1563264827003",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": "新人免息"
+      },
+      {
+        "image": "Mibi/0d05ac5b5dc4942993dd7a7716bb7d82b9643a813",
+        "title": {
+          "zh_CN": "财富",
+          "zh_TW": "財富",
+          "en_US": "Finance"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.moneyFund",
+          "url": "https://m.jr.mi.com/?from=mipay_licai&downbtn=false"
+        },
+        "index": "2",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1563264827004",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/0d05ac5b5dc4942993dd7a7716bb7d8bb9640a813",
+        "title": {
+          "zh_CN": "保险",
+          "zh_TW": "保險",
+          "en_US": "Insurance"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.insurance",
+          "url": "https://api.jr.mi.com/insurance/?from=mipay"
+        },
+        "index": "3",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1563264827005",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/00c39b57cd6264d273878d78e9444e6627eb33332",
+        "title": {
+          "zh_CN": "小米信用卡",
+          "zh_TW": "小米信用卡",
+          "en_US": "MiCreditCard"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.MICreditCard",
+          "url": "https://lmk.mipay.com/credit/fe/index.html#/?channelid=XMQB"
+        },
+        "index": "4",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1563264827006",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": "福利满满"
+      },
+      {
+        "image": "Mibi/0305a59b54c699294add7c7717ab7088bbd4316dc",
+        "title": {
+          "zh_CN": "手机充值",
+          "zh_TW": "手機充值",
+          "en_US": "Phone Top-up"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.phoneRecharge",
+          "url": "https://phone.recharge.mipay.com/static/html/phone.html?appendTimestamp=true"
+        },
+        "index": "5",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1563264827007",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/00c0f4500948fc5599f65bdca39ec0a310e4102b0",
+        "title": {
+          "zh_CN": "Mi Pay",
+          "zh_TW": "Mi Pay",
+          "en_US": "Mi Pay"
+        },
+        "entry": {
+          "type": "LOCAL",
+          "id": "mipay.noNfcBankCard",
+          "url": "mipay.noNfcBankCard"
+        },
+        "index": "5",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1584349925828",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/0a75b4ddef181527c2522798701f6eec83e42fd09",
+        "title": {
+          "zh_CN": "小米商城",
+          "zh_TW": "小米商城",
+          "en_US": "MiShop"
+        },
+        "entry": {
+          "type": "APP",
+          "id": "mipay.xiaomi.shop",
+          "intentUri": "http://ab.xiaomi.com/d?url=aHR0cDovL20ubWkuY29tL3Nkaz9waWQ9MTAwJmNpZD0yMDA0Ni4wMDAwMCZmYWxsYmFjaz1odHRwcyUzQSUyRiUyRm0ubWkuY29tJTJGJTNGbWFzaWQlM0QyMDA0Ni4wMDAwMA"
+        },
+        "index": "6",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1569829560618",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/0e0634e5117b1bcd6f2d05072c1683de6124121af",
+        "title": {
+          "zh_CN": "小米收款宝",
+          "zh_TW": "小米收款寶",
+          "en_US": "Mi Collect"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.microMerchant",
+          "url": "https://merchant-mobile.sdpay.mipay.com/h5/index?channelId=1"
+        },
+        "index": "7",
+        "startTime": "2020-01-07 16:00",
+        "endTime": "",
+        "timeStamp": "1578383868077",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": "新"
+      },
+      {
+        "image": "Mibi/0305a59b54c699294add7d7715ab7288b6d4316dc",
+        "title": {
+          "zh_CN": "红包卡券",
+          "zh_TW": "紅包卡券",
+          "en_US": "My Coupons"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.redPackage",
+          "url": "https://app.mipay.com/?id=mipay.redPackage&nfc=1"
+        },
+        "index": "8",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1563264827009",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/08c39b57cd6064d2a3878278e9e44e6227eb13332",
+        "title": {
+          "zh_CN": "福利专区",
+          "zh_TW": "福利專區",
+          "en_US": "Benefit Zone"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.vipshop",
+          "url": "https://s.pay.xiaomi.com/?channel=wallet"
+        },
+        "index": "9",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1563334181741",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/043c1551142634f040e75267690e305477b1dffca",
+        "title": {
+          "zh_CN": "本地生活",
+          "zh_TW": "本地生活",
+          "en_US": "local life"
+        },
+        "entry": {
+          "type": "LOCAL",
+          "id": "otosaas.main",
+          "url": "https://mi.otosaas.com/custompage/5dfb2c02a227297e0082dcd3"
+        },
+        "index": "10",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1578638090076",
+        "addUserId": true,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/067af461ec363f71f9d2f00781724994d4143bb31",
+        "title": {
+          "zh_CN": "小米零钱卡",
+          "zh_TW": "小米零錢卡",
+          "en_US": "MiChangeCard"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.MiChangeCard",
+          "url": "https://micif.mipay.com/h5/website/account?ref=xmqbicon"
+        },
+        "index": "11",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1567843835513",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/0305a59b54c699294add7d771eab7488bbd4316dc",
+        "title": {
+          "zh_CN": "信用卡账单",
+          "zh_TW": "信用卡賬單",
+          "en_US": "Bills"
+        },
+        "entry": {
+          "type": "LOCAL",
+          "id": "mipay.creditCardBill"
+        },
+        "index": "12",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1563264827014",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/0ac39b57cd6264d273878d78e9544e6227eb03332",
+        "title": {
+          "zh_CN": "信用卡代还",
+          "zh_TW": "信用卡代還",
+          "en_US": "Loan And Repay"
+        },
+        "entry": {
+          "type": "LOCAL",
+          "id": "mipay.loanRepay"
+        },
+        "index": "13",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1563264827016",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/0305a59b54c699294add7e7713ab7a88b9d4316dc",
+        "title": {
+          "zh_CN": "小米有品",
+          "zh_TW": "小米有品",
+          "en_US": "Youpin"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.youpin",
+          "url": "https://m.youpin.mi.com/main?source=xmqb_zficon0603&noDL=1"
+        },
+        "index": "14",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1563784538513",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/09c39b57cd6264d273878d78e9544e6527eb23332",
+        "title": {
+          "zh_CN": "米粉卡",
+          "zh_TW": "米粉卡",
+          "en_US": "Mifans Card"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.mifans",
+          "url": "http://service.micard.10046.mi.com/ctmiphone/cardSelling?channel_code=2067"
+        },
+        "index": "15",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1563784866988",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/0305a59b54c699294add7e7716ab7d88bdd4316dc",
+        "title": {
+          "zh_CN": "米币充值",
+          "zh_TW": "米幣充值",
+          "en_US": "Mi Coins"
+        },
+        "entry": {
+          "type": "APP",
+          "id": "mibi.mibiRecharge",
+          "intentUri": "intent:#Intent;action=com.xiaomi.action.VIEW_MILI_CENTER;package=com.xiaomi.payment;end"
+        },
+        "index": "16",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1563264827012",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/02c39577c26e67d2bd878578e8344a632bd4339eb",
+        "title": {
+          "zh_CN": "转账",
+          "zh_TW": "轉賬",
+          "en_US": "Transfer"
+        },
+        "entry": {
+          "type": "LOCAL",
+          "id": "mipay.transfer"
+        },
+        "index": "17",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1563264827010",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/0cc39b57cd6264d273878d78e9644e6927ebe3332",
+        "title": {
+          "zh_CN": "交易记录",
+          "zh_TW": "交易記錄",
+          "en_US": "Payment History"
+        },
+        "entry": {
+          "type": "LOCAL",
+          "id": "mipay.tradeRecord"
+        },
+        "index": "18",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1563264827015",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/0305a59b54c699294add7c771bab7d88bed4316dc",
+        "title": {
+          "zh_CN": "生活缴费",
+          "zh_TW": "生活繳費",
+          "en_US": "Utilities"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.lifeUtility",
+          "url": "https://web.recharge.mipay.com/web/utility"
+        },
+        "index": "19",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1563264827008",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/067af141e13a347163d2f2078b324391d66ff74b6",
+        "title": {
+          "zh_CN": "一元抽免单",
+          "zh_TW": "一元抽免單",
+          "en_US": "One yuan for free"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.freeorder",
+          "url": "https://s.pay.xiaomi.com/freeOrder/index?channel=wallet"
+        },
+        "index": "20",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1571991019747",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/0d28b4bc37df9d59b9e0c7c8e229f50c59a40f033",
+        "title": {
+          "zh_CN": "早起打卡",
+          "zh_TW": "早起打卡",
+          "en_US": "daily attendance"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.Punch",
+          "url": "https://s.pay.xiaomi.com/cash?channel=wallet#/daka"
+        },
+        "index": "21",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1571991233158",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/0305a59b54c699294add7f771fab7088bcd4316dc",
+        "title": {
+          "zh_CN": "客服咨询",
+          "zh_TW": "客服咨詢",
+          "en_US": "Customer Service"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.help",
+          "url": "https://help.jr.mi.com/?app=com.mipay.wallet#/e/EWALLET_HOMEPAGE"
+        },
+        "index": "23",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1563264827018",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/043c1551142634f040e75267690e305477b1dffca",
+        "title": {
+          "zh_CN": "酷屏商城测试",
+          "zh_TW": "酷屏商城测试",
+          "en_US": "酷屏商城测试"
+        },
+        "entry": {
+          "type": "LOCAL",
+          "id": "otosaas.main",
+          "url": "https://cloudmallclientxiaomi.otosaas.com/home/ch"
+        },
+        "index": "24",
+        "startTime": "2020-01-16 00:00",
+        "endTime": "",
+        "timeStamp": "1579144589861",
+        "addUserId": true,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "2336714361,403086640,478334729,1297673575,161072595,1240868551,2363639186",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/0b05ac5b5dc4942993dd7a7716fb7d82b9645a813",
+        "title": {
+          "zh_CN": "Mi Pay激励金",
+          "zh_TW": "Mi Pay激勵金",
+          "en_US": "Mi Pay Bonus"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.coupon",
+          "url": "https://tsmactivity.pay.xiaomi.com/views/activity/busCard/201807/uniBankActivity/index.html"
+        },
+        "index": "25",
+        "startTime": "",
+        "endTime": "2020-02-04 09:30",
+        "timeStamp": "1563264827013",
+        "addUserId": false,
+        "deviceType": "nfc",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      },
+      {
+        "image": "Mibi/0305a59b54c699294add7f771fab7088bcd4316dc",
+        "title": {
+          "zh_CN": "测试专用",
+          "zh_TW": "测试专用",
+          "en_US": "测试专用"
+        },
+        "entry": {
+          "type": "APP",
+          "id": "mipay.test",
+          "intentUri": "mivideo://video/detail?id=NV000000536601&ref=mi_wallet&back_scheme=mv://Main?id=1"
+        },
+        "index": "26",
+        "startTime": "2020-03-20 10:40",
+        "endTime": "",
+        "timeStamp": "1584672248116",
+        "addUserId": false,
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "161072595",
+        "ratio": "",
+        "modelList": "",
+        "mark": ""
+      }
+    ]
+  },
+  "bannerData": [
+    {
+      "image": "Mibi/0c0434dba80a3c7248b6bfe272fc1f8cb7f42fa6e",
+      "index": 1,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.wallet.activity",
+        "url": "https://static.pay.xiaomi.com/pay-static/activity1111/index.html"
+      },
+      "startTime": "2019-11-06 15:00",
+      "endTime": "2019-11-11 23:55",
+      "timeStamp": "1573023805109",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0caa0599c4fb12b911e433a5227a5debb4f41a7ab",
+      "index": 1,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.miccb.activity",
+        "url": "https://micif.mipay.com/h5/website/ccbActivity?ref=xmqb"
+      },
+      "startTime": "2019-09-07 16:10",
+      "endTime": "2019-11-22 14:55",
+      "timeStamp": "1567844047742",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/03288461d30048fc3a8930054c0f0db629143502a",
+      "index": 1,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.financial.activity",
+        "url": "https://m.jr.mi.com/mp/activity/thanksGiving?from=miwallet"
+      },
+      "startTime": "2019-11-28 15:35",
+      "endTime": "2019-12-03 00:00",
+      "timeStamp": "1574926371787",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/02f224b539384ce21d0c827479845dfe9aa43d2be",
+      "index": 1,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.wallet.activity",
+        "url": "https://luckydraw.pay.xiaomi.com/?id=20191212&ref=2"
+      },
+      "startTime": "2019-12-02 18:00",
+      "endTime": "2019-12-12 23:55",
+      "timeStamp": "1575280830084",
+      "deviceType": "nonNfc",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/023c1541142534f060e75367690e305477b14ffca",
+      "index": 1,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.miccb.activity",
+        "url": "https://micif.mipay.com/h5/website/ccbFundActivity/activity23fb#/?ref=QBbanner"
+      },
+      "startTime": "2019-12-26 20:35",
+      "endTime": "2020-01-11 00:00",
+      "timeStamp": "1577363698191",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/09063f45127c14cdc12d0f0721568add6eb611e2e",
+      "index": 1,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.8DQQ.activity",
+        "url": "https://help.jr.mi.com/activity/active-page?id=49"
+      },
+      "startTime": "2020-01-11 00:00",
+      "endTime": "2020-01-22 23:55",
+      "timeStamp": "1578660829988",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0a3c1571112b30f015e75f6760fe3d5f7a440c905",
+      "index": 1,
+      "entry": {
+        "type": "APP",
+        "id": "mipay.browser.activity",
+        "intentUri": "mibrowser://home/webapp?web_url=https%3A%2F%2Fhd.browser.miui.com%2Fhds%2F20191223%2F%23_miui_fullscreen%3D2%26_miui_orientation%3Dportrait%3F_miui_fullscreen%3D2%26_miui_orientation%3Dportrait%26source%3Dbrowser2020jikahuodong_qianbaobanner&appid=com.xiaomi&params=%7Bname%3A%20%27%E9%9B%86%E7%A6%8F%E5%8D%A1%20%E7%93%9C%E5%88%86%E7%99%BE%E4%B8%87%E7%8E%B0%E9%87%91%27%2C%20url%3A%20%27https%3A%2F%2Fhd.browser.miui.com%2Fhds%2F20191223%2F%23_miui_fullscreen%3D2%26_miui_orientation%3Dportrait%3F_miui_fullscreen%3D2%26_miui_orientation%3Dportrait%26source%3Dbrowser2020jikahuodong_qianbaobanner%27%7D"
+      },
+      "startTime": "2020-01-17 15:50",
+      "endTime": "2020-01-23 23:55",
+      "timeStamp": "1579247527332",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0cc515457b7bc495d3e9815c361827e7ae32e31eb",
+      "index": 1,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay. epidemic.activity",
+        "url": "https://mi.otosaas.com/yiqing/"
+      },
+      "addUserId": true,
+      "startTime": "2020-02-06 19:10",
+      "endTime": "2020-03-04 00:00",
+      "timeStamp": "1580987530124",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/05c515557b7cc495c3e98d5c368827e7ae32131eb",
+      "index": 1,
+      "entry": {
+        "type": "APP",
+        "id": "mipay.consumerLoan.activity",
+        "intentUri": "https://help.jr.mi.com/activity/active-page?id=79"
+      },
+      "addUserId": false,
+      "startTime": "2020-02-14 10:00",
+      "endTime": "2020-02-14 16:40",
+      "timeStamp": "1581645601008",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0247f4140e2b6972852107ba90f65637d2d43927a",
+      "index": 1,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.Luckydraw.activity",
+        "url": "https://luckydraw.pay.xiaomi.com/?activityId=20200304&ref=banner"
+      },
+      "addUserId": false,
+      "startTime": "2020-03-06 00:00",
+      "endTime": "2020-03-10 00:00",
+      "timeStamp": "1583721368498",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0a75b4dde3181827ce522c98731f69ec83e42fd09",
+      "index": 1,
+      "entry": {
+        "type": "APP",
+        "id": "mipay.mishop.activity",
+        "intentUri": "https://m.mi.com/commodity/detail/1193700018?client_id=180100031058&masid=20029.00001"
+      },
+      "addUserId": false,
+      "startTime": "2020-03-28 11:00",
+      "endTime": "2020-03-29 00:00",
+      "timeStamp": "1585364330092",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0030844914bfd4169122515009a8287ddfab80d60",
+      "index": 1,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.mifenjika.activity",
+        "url": "https://luckydraw.pay.xiaomi.com/collectCard/share/?activityId=20200402&tag=NFC#task-list"
+      },
+      "addUserId": false,
+      "startTime": "2020-04-08 00:00",
+      "endTime": "2020-04-13 00:00",
+      "timeStamp": "1586318734072",
+      "deviceType": "nfc",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0030844914bfd4169122515009a8287ddfab80d60",
+      "index": 1,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.mifenjika.activity",
+        "url": "https://luckydraw.pay.xiaomi.com/collectCard/share/?activityId=20200402"
+      },
+      "addUserId": false,
+      "startTime": "2020-04-08 00:00",
+      "endTime": "2020-04-13 00:00",
+      "timeStamp": "1586318889352",
+      "deviceType": "nonNfc",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0b30844914bdd416c122575009082874dfabd0d60",
+      "index": 1,
+      "entry": {
+        "type": "APP",
+        "id": "mipay.mifenjingrong1.activity",
+        "intentUri": "https://m.mi.com/p?pid=15102&extra_url=http://api.m.mi.com/v1/home/activity_page&extra_ver=14799&client_id=180100041080&cid=2041.0063&fallback=https%3a%2f%2fs1.mi.com%2fm%2fapp%2fhd%2findex.html%3fid%3d14799%26client_id%3d180100041080%26masid%3d2041.0063"
+      },
+      "addUserId": false,
+      "startTime": "2020-04-09 11:45",
+      "endTime": "2020-04-10 00:00",
+      "timeStamp": "1586403974880",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0b231445f21b44e8d3c5b861234011ecbb20a18c3",
+      "index": 2,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.mifencard.activity",
+        "url": "https://tsmactivity.pay.xiaomi.com/views/activity/mipay/2020/index.html?channelid=XMSC&subchannel=QBbanner"
+      },
+      "addUserId": false,
+      "startTime": "2020-04-03 00:00",
+      "endTime": "2020-04-10 14:00",
+      "timeStamp": "1585827852180",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0575b94dee1b142722522a987daf60e68d8c91cfa",
+      "index": 2,
+      "entry": {
+        "type": "APP",
+        "id": "mipay.shoujifenqi.activity",
+        "intentUri": "https://m.mi.com/commodity/detail/10000213"
+      },
+      "addUserId": false,
+      "startTime": "2020-04-02 00:00",
+      "endTime": "2020-04-04 00:00",
+      "timeStamp": "1585731361589",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0a75b4ddec181c27c9522f987b1f66ec8be42fd09",
+      "index": 2,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.diaochawenjuan.activity",
+        "url": "https://m.beehive.miui.com/oGk2EQv1vyho17vuNHRP-A"
+      },
+      "addUserId": false,
+      "startTime": "2020-03-30 16:00",
+      "endTime": "2020-04-04 00:00",
+      "timeStamp": "1585561857450",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0435d517a218a65416b4c49c7e3f7b68d2d420c17",
+      "index": 2,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.miccb.activity",
+        "url": "https://micif.mipay.com/h5/website/ccbFundActivity/activity23fb#/?ref=QBbanner"
+      },
+      "addUserId": false,
+      "startTime": "2020-03-30 11:00",
+      "endTime": "2020-03-31 10:00",
+      "timeStamp": "1582796426816",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0bc515e57173c49523e98d5c3c382ee1a0b43e675",
+      "index": 2,
+      "entry": {
+        "type": "LOCAL",
+        "id": "otosaas.main",
+        "url": "https://mi.otosaas.com/waimai/"
+      },
+      "addUserId": true,
+      "startTime": "2020-02-13 14:45",
+      "endTime": "2020-02-15 00:00",
+      "timeStamp": "1581576187811",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0c0434dba30a327242b6bde27dfc118cb7f42fa6e",
+      "index": 2,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.MicreditCard.activity",
+        "url": "http://tsmactivity.pay.xiaomi.com/views/activity/credit816/index.html?channelid=QBbanner"
+      },
+      "startTime": "2019-10-31 17:00",
+      "endTime": "2019-11-11 23:55",
+      "timeStamp": "1572512456499",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/067af461ea363371f7d2fb078c724894d9143bb31",
+      "index": 2,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.flzq.activity",
+        "url": "https://s.pay.xiaomi.com/freeOrder/index?channel=walletBanner"
+      },
+      "startTime": "2019-10-25 11:20",
+      "endTime": "2019-11-06 15:00",
+      "timeStamp": "1571973704248",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/015b3430a0392d432a331fe3a8916cc90dc421d9b",
+      "index": 2,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.MICreditCard.activity",
+        "url": "https://tsmactivity.pay.xiaomi.com/views/activity/lmkAct/creditCardCharges/index.html"
+      },
+      "startTime": "2019-08-01 00:00",
+      "endTime": "2019-09-07 00:00",
+      "timeStamp": "1563264827020",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": ""
+    },
+    {
+      "image": "Mibi/0caa0599c0fb1db91ce43ba52a7a59ebb0f41a7ab",
+      "index": 2,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.MicreditCard.activity",
+        "url": "http://tsmactivity.pay.xiaomi.com/views/activity/lmkAct/20191001/index.html?channelid=LMK_bus_newbanner"
+      },
+      "startTime": "2019-09-27 18:30",
+      "endTime": "2019-10-10 23:55",
+      "timeStamp": "1569580274904",
+      "deviceType": "nfc",
+      "loginType": "all",
+      "whiteList": ""
+    },
+    {
+      "image": "Mibi/0c0435dba30a3d7242b6b6e274fc188cb4f42fa6e",
+      "index": 2,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.insurance.activity",
+        "url": "https://api.jr.mi.com/activity/new/octone.html?from=insads_mipay_banner_2#/"
+      },
+      "startTime": "2019-11-12 00:00",
+      "endTime": "2019-11-15 23:55",
+      "timeStamp": "1573487675468",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0c382551c98c15e4e105b55d76e800cf4fb4096ac",
+      "index": 2,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.MicreditCard.activity",
+        "url": "https://tsmactivity.pay.xiaomi.com/views/activity/lmk/fe/#/recommand?channelid=INVITE"
+      },
+      "startTime": "2019-11-20 00:00",
+      "endTime": "2019-11-26 23:55",
+      "timeStamp": "1573525680125",
+      "deviceType": "nonNfc",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/093c1541142234f040e75e67696e305877b1fffca",
+      "index": 2,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.8DQQ.activity",
+        "url": "https://help.jr.mi.com/activity/active-page?id=37"
+      },
+      "startTime": "2019-12-31 18:00",
+      "endTime": "2020-01-11 00:00",
+      "timeStamp": "1577446965215",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0e0634e51b7b12cd6d2d0b07261683de6624121af",
+      "index": 2,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.financial.activity",
+        "url": "https://m.jr.mi.com/mp/activity/festival?from=mipay_home_banner&back=false"
+      },
+      "startTime": "2020-01-14 20:25",
+      "endTime": "2020-01-22 23:55",
+      "timeStamp": "1579004776674",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0435d417ad18ad541fb4c99c7a3f7368d5d420c17",
+      "index": 2,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.MicreditCard.activity",
+        "url": "http://tsmactivity.pay.xiaomi.com/views/activity/credit816/index.html?channelid=AD3&subchannel=QBbanner"
+      },
+      "addUserId": false,
+      "startTime": "2020-02-21 17:45",
+      "endTime": "2020-02-29 00:00",
+      "timeStamp": "1582278353829",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/097ec25518be24ec23415b98e1567e979bb195a9e",
+      "index": 2,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.installment.kaiping",
+        "url": "https://s1.mi.com/m/app/hd/index.html?id=14144&?client_id=180100031058&masid=2090.0001&from=singlemessage"
+      },
+      "addUserId": false,
+      "startTime": "2020-03-04 00:00",
+      "endTime": "2020-03-11 00:00",
+      "timeStamp": "1583721813103",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0d35d747ad18a454e2b4cc9c7c1f7165d181e3804",
+      "index": 2,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.microMerchant.activity",
+        "url": "https://help.jr.mi.com/activity/active-page?id=96"
+      },
+      "addUserId": false,
+      "startTime": "2020-03-11 00:00",
+      "endTime": "2020-03-18 00:00",
+      "timeStamp": "1583737436432",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0435d517a218a65416b4c49c7e3f7b68d2d420c17",
+      "index": 2,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.miccb.activity",
+        "url": "https://micif.mipay.com/h5/website/ccbFundActivity/activity23fb#/?ref=QBbanner"
+      },
+      "addUserId": false,
+      "startTime": "2020-03-13 00:00",
+      "endTime": "2020-03-27 00:00",
+      "timeStamp": "1583831547250",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0247f4140e2b6972852107ba90f65637d2d43927a",
+      "index": 2,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.Luckydraw.activity",
+        "url": "https://luckydraw.pay.xiaomi.com/?activityId=20200304&ref=banner"
+      },
+      "addUserId": false,
+      "startTime": "2020-03-11 10:00",
+      "endTime": "2020-03-20 00:00",
+      "timeStamp": "1583891888897",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/097ec25518b724ec73415d98e1467e9e9bb1d5a9e",
+      "index": 2,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.mifanscard.activity",
+        "url": "https://service.10046.mi.com/mimobile/proxy_third_channel"
+      },
+      "addUserId": false,
+      "startTime": "2020-03-23 00:00",
+      "endTime": "2020-03-31 00:00",
+      "timeStamp": "1582885330984",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0023555a910913b53746c73cd9c4be6a00b4149b0",
+      "index": 2,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.shoukuanbao.activity",
+        "url": "https://help.jr.mi.com/activity/active-page?id=150"
+      },
+      "addUserId": false,
+      "startTime": "2020-04-10 14:35",
+      "endTime": "2020-04-17 00:00",
+      "timeStamp": "1586500723502",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0023545a9c0910b53e46c33cd8c4b96a02b4149b0",
+      "index": 3,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.wallet.activity",
+        "url": "http://s.pay.xiaomi.com/?channel=APPbanner#/"
+      },
+      "addUserId": false,
+      "startTime": "2020-04-07 10:55",
+      "endTime": "2020-04-15 00:00",
+      "timeStamp": "1586228168103",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0e0635e5157b17cd6a2d05072f1687de6424121af",
+      "index": 3,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.MicreditCard.activity",
+        "url": "https://lmk.mipay.com/flyer/ceb/index.html?channelid=XMQB"
+      },
+      "addUserId": false,
+      "startTime": "2020-03-20 12:45",
+      "endTime": "2020-03-27 10:00",
+      "timeStamp": "1580785289992",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/00c0f4500948fc5599f65bdcab9ec0a31ce4102b0",
+      "index": 3,
+      "entry": {
+        "type": "APP",
+        "id": "mipay.AI.activity",
+        "intentUri": "https://i.ai.mi.com/h5/ai-year-3-fe/index.html "
+      },
+      "addUserId": false,
+      "startTime": "2020-03-19 00:00",
+      "endTime": "2020-03-22 00:00",
+      "timeStamp": "1584351858697",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/047ec24518b824ecd3415c98e1d67e989bb1e5a9e",
+      "index": 3,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.mibi.activity",
+        "url": "https://static.pay.xiaomi.com/pay-static/mibiactivity/index.html?ref=wallet1"
+      },
+      "addUserId": false,
+      "startTime": "2020-03-02 10:25",
+      "endTime": "2020-03-11 00:00",
+      "timeStamp": "1582701295998",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0d35d747ad18a454e2b4cc9c7c1f7165d181e3804",
+      "index": 3,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.microMerchant.activity",
+        "url": "https://help.jr.mi.com/activity/active-page?id=96 "
+      },
+      "addUserId": false,
+      "startTime": "2020-02-24 00:00",
+      "endTime": "2020-03-02 00:00",
+      "timeStamp": "1581298499777",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0a3c15711a2b33f013e752676efe365f74440c905",
+      "index": 3,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.8DQQ.activity",
+        "url": "https://static.pay.xiaomi.com/pay-static/activity0114/indexf.html"
+      },
+      "addUserId": true,
+      "startTime": "2020-01-31 00:00",
+      "endTime": "2020-02-11 00:00",
+      "timeStamp": "1580701704560",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/02f224b5393846e2170c8474798459fe94a43d2be",
+      "index": 3,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.MicreditCard.activity",
+        "url": "http://tsmactivity.pay.xiaomi.com/views/activity/credit816/index.html?channelid=QBbanner"
+      },
+      "startTime": "2019-12-30 00:00",
+      "endTime": "2019-12-31 23:55",
+      "timeStamp": "1575341275064",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/03288561d70044fc3f8939054e0f01b624143502a",
+      "index": 3,
+      "entry": {
+        "type": "APP",
+        "id": "mipay.consumerLoan.activity",
+        "intentUri": "https://api.jr.mi.com/loan/?tintColor=4582e5&from=nb_wallet_push&back=false"
+      },
+      "startTime": "2019-12-12 18:10",
+      "endTime": "2019-12-20 23:55",
+      "timeStamp": "1576145396089",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/01043e5baf09347262b6b5e27a0c1689bda4ffcfc",
+      "index": 3,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.life.activity",
+        "url": "https://web.recharge.mipay.com/web/utility"
+      },
+      "startTime": "2019-11-22 15:00",
+      "endTime": "2019-12-06 00:00",
+      "timeStamp": "1574341042485",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/01c39b47cd6464d223878278e9344e6927eb53332",
+      "index": 3,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.consumerLoan.activity",
+        "url": "https://api.jr.mi.com/loan/activity/201903/landing?from=nb_telecharge_201905&media=wallet_banner_home&activityCode=nb_telecharge_201905"
+      },
+      "startTime": "2019-08-01 00:00",
+      "endTime": "2019-09-07 00:00",
+      "timeStamp": "1563264827021",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": ""
+    },
+    {
+      "image": "Mibi/067af141e13c347103d2f8078be24393d66f074b6",
+      "index": 3,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.mipay.activity",
+        "url": "https://tsmactivity.pay.xiaomi.com/views/activity/mipay/20190911/index.html?channelid=Mipay_BusCard2rd_XMQBnewbanner"
+      },
+      "startTime": "2019-11-18 12:10",
+      "endTime": "2019-11-30 12:35",
+      "timeStamp": "1570602616089",
+      "deviceType": "nfc",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0b7af141e1333471c3d2fc078bb2439ad66f674b6",
+      "index": 3,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.MicreditCard150.activity",
+        "url": "https://creditcard.nfcpay.xiaomi.com/creditCard/wap/index.html#/tip/100"
+      },
+      "startTime": "2019-10-17 21:00",
+      "endTime": "2019-10-31 17:00",
+      "timeStamp": "1571318348011",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0f043e4baf003472e2b6bce27acc1681bda44fcfc",
+      "index": 3,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.insurance.activity",
+        "url": "https://api.jr.mi.com/activity/new/freeact.html?from=jrshjh_miwallet&source=p0&mifiInsFrom=jrshjh_miwallet#/act12"
+      },
+      "startTime": "2019-11-01 00:00",
+      "endTime": "2019-11-05 23:55",
+      "timeStamp": "1572577835415",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0f043e4baf083472b2b6b9e27aec168fbda4efcfc",
+      "index": 3,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.insurance.activity",
+        "url": "https://m.jr.mi.com/mp/activity/planTen?activityCode=planten201911&from=mipay_home_banner&back=false"
+      },
+      "startTime": "2019-11-06 00:00",
+      "endTime": "2019-11-10 23:55",
+      "timeStamp": "1573020231628",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/03f22e453a3744e2230c8f7472145bf79b8128ed2",
+      "index": 3,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.mifanscard.activity",
+        "url": "http://service.micard.10046.mi.com/ctmiphone/cardSelling?channel_code=2179"
+      },
+      "startTime": "2019-11-18 00:00",
+      "endTime": "2019-11-19 23:55",
+      "timeStamp": "1573817960739",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0df22e553a3444e2330c817472045bf69b8138ed2",
+      "index": 3,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.financial.activity",
+        "url": "https://m.jr.mi.com/mp/activity/planTen?activityCode=planten201912&from=mipay_home_banner&back=false"
+      },
+      "startTime": "2019-12-06 10:55",
+      "endTime": "2019-12-12 23:55",
+      "timeStamp": "1575601112549",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/073c1541142534f060e7556769fe305677b1cffca",
+      "index": 3,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.financial.activity",
+        "url": "https://help.jr.mi.com/activity/active-page?id=34&from=miwallet"
+      },
+      "startTime": "2019-12-26 20:30",
+      "endTime": "2019-12-31 23:55",
+      "timeStamp": "1577363417603",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0a063f45127514cd512d0f0721c68ad66eb621e2e",
+      "index": 3,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.BusCard.activity",
+        "url": "https://tsmactivity.pay.xiaomi.com/views/activity/mipay/Redmi8BusCouponActivity/index.html?channelid=BUS_REDMI_BAN_XMQB"
+      },
+      "startTime": "2020-01-02 21:50",
+      "endTime": "2020-01-06 23:55",
+      "timeStamp": "1577973038663",
+      "deviceType": "nfc",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": "Redmi Note 8 Pro"
+    },
+    {
+      "image": "Mibi/093875f53f4d4b5192f9d2b6f30e5417b65416364",
+      "index": 3,
+      "entry": {
+        "type": "APP",
+        "id": "mipay.community.activity",
+        "intentUri": "https://www.xiaomi.cn/dispatch.html?targetUrl=https%3A%2F%2Fweb.vip.miui.com%2Fpage%2Finfo%2Fmio%2Fmio%2Fmi10"
+      },
+      "addUserId": false,
+      "startTime": "2020-02-10 14:35",
+      "endTime": "2020-02-13 00:00",
+      "timeStamp": "1581316426289",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/02387455354b445191f9dcb6f37e561bbfd920769",
+      "index": 3,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.MicreditCard.activity",
+        "url": "https://lmk.mipay.com/#/newUserCenter/60001?channelid=XMQB"
+      },
+      "addUserId": false,
+      "startTime": "2020-04-14 00:00",
+      "endTime": "2020-04-21 00:00",
+      "timeStamp": "1581559097283",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0023545a900919b53a46c93cdec4bd6a01b4149b0",
+      "index": 4,
+      "entry": {
+        "type": "APP",
+        "id": "mipay.insurance.activity",
+        "intentUri": "https://api.jr.mi.com/activity/new/ceremony.html?from=insads_mipay_banner#/index"
+      },
+      "addUserId": false,
+      "startTime": "2020-04-13 00:00",
+      "endTime": "2020-04-16 23:00",
+      "timeStamp": "1586017267513",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0c23504a9b0c14b50146c73cd954bb6e05935ca40",
+      "index": 4,
+      "entry": {
+        "type": "APP",
+        "id": "mipay.mifenjingrong1.activity",
+        "intentUri": "https://m.jr.mi.com/mp/activity/mifansDay?activityId=1&from=mipay_home_banner&back=false"
+      },
+      "addUserId": false,
+      "startTime": "2020-04-08 00:00",
+      "endTime": "2020-04-14 00:00",
+      "timeStamp": "1586228827963",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0a75b4dde8181c27cd522b987f1f60ec89e42fd09",
+      "index": 4,
+      "entry": {
+        "type": "APP",
+        "id": "mipay.mifenjingrong1.activity",
+        "intentUri": "https://m.jr.mi.com/mp/activity/mifansDay?activityId=1&from=mipay_home_banner&back=false"
+      },
+      "addUserId": false,
+      "startTime": "2020-04-02 11:00",
+      "endTime": "2020-04-08 00:00",
+      "timeStamp": "1585743764704",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/03288461d60043fc328934054d0f0eb62d143502a",
+      "index": 4,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.MicreditCard.activity",
+        "url": "https://lmk.mipay.com/flyer/cmb/index.html?channelid=XMQB"
+      },
+      "addUserId": false,
+      "startTime": "2020-04-15 14:00",
+      "endTime": "2020-04-22 23:00",
+      "timeStamp": "1574410458023",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/017ec24518b224ecc3415598e1f67e9a9bb1d5a9e",
+      "index": 4,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.insurance.activity",
+        "url": "https://api.jr.mi.com/activity/new/zeroact.html?from=insads_mipay_banner#/"
+      },
+      "addUserId": false,
+      "startTime": "2020-02-20 10:00",
+      "endTime": "2020-02-27 00:00",
+      "timeStamp": "1582105656066",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/02f225b5343843e2100c807476845cfe92a43d2be",
+      "index": 4,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.mifanscard.activity",
+        "url": "https://service.micard.10046.mi.com/ctmiphone/cardSelling?channel_code=2197"
+      },
+      "startTime": "2020-01-13 00:00",
+      "endTime": "2020-01-17 23:55",
+      "timeStamp": "1575602575431",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0e0634e5107b12cd6c2d0d07251686de6c24121af",
+      "index": 4,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.financial.activity",
+        "url": "https://m.jr.mi.com/mp/activity/planTen?activityCode=planten202001&from=mipay_home_banner&back=false"
+      },
+      "startTime": "2020-01-06 14:00",
+      "endTime": "2020-01-12 23:55",
+      "timeStamp": "1578290613292",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/02f225b5383845e21e0c867477845dfe9aa43d2be",
+      "index": 4,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.flzq.activity",
+        "url": "http://s.pay.xiaomi.com/?channel=APPbanner"
+      },
+      "startTime": "2019-12-20 19:55",
+      "endTime": "2019-12-27 23:55",
+      "timeStamp": "1576842936299",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/03288461dd004efc33893405400f0ab623143502a",
+      "index": 4,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.insurance.activity",
+        "url": "https://api.jr.mi.com/activity/new/sepfour.html?from=insads_mipay_banner_1#/index"
+      },
+      "startTime": "2019-12-06 10:55",
+      "endTime": "2019-12-12 17:55",
+      "timeStamp": "1575600866337",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0c382551c98c15e4e105b55d76e800cf4fb4096ac",
+      "index": 4,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.MicreditCard.activity",
+        "url": "https://tsmactivity.pay.xiaomi.com/views/activity/lmk/fe/#/recommand?channelid=INVITE"
+      },
+      "startTime": "2019-10-12 16:55",
+      "endTime": "2019-10-18 20:00",
+      "timeStamp": "1570874207991",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/063c1541142234f020e75a67696e305477b10ffca",
+      "index": 4,
+      "entry": {
+        "type": "APP",
+        "id": "mipay.AI.activity",
+        "intentUri": "voiceassist://aiweb?url=https%3A%2F%2Fi.ai.mi.com%2Fh5%2Fred-envelope-activity%2Findex.html&flag=805339136&noBack=false&statusBarColor=000000&navigationBarColor=000000&statusBarTextBlack=false"
+      },
+      "startTime": "2019-12-28 00:00",
+      "endTime": "2019-12-30 23:55",
+      "timeStamp": "1577427519303",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/078b4a4f39b7049df218c8ee89f7f0540a40e7b30",
+      "index": 4,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.ETC.activity",
+        "url": "https://wx.gssb.ccb.com/sns/index.html?TXCODE=ETC001&CH=zhc00001"
+      },
+      "startTime": "2019-11-11 00:00",
+      "endTime": "2019-12-31 00:00",
+      "timeStamp": "1572420351135",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0bc515e57273cb9520e9825c36382de1adb43e675",
+      "index": 4,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.financial.activity",
+        "url": "https://m.jr.mi.com/mp/activity/planTen?activityCode=planten202002&from=mipay_home_banner&back=false"
+      },
+      "addUserId": false,
+      "startTime": "2020-02-11 14:00",
+      "endTime": "2020-02-19 00:00",
+      "timeStamp": "1581387660591",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0947fa440d236472232105ba9246573bd1b82f792",
+      "index": 4,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.financial.activity",
+        "url": "https://m.jr.mi.com/mp/activity/planTen?activityCode=planten202003&from=mipay_home_banner&back=false"
+      },
+      "addUserId": false,
+      "startTime": "2020-03-09 00:00",
+      "endTime": "2020-03-16 00:00",
+      "timeStamp": "1583721502100",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0f47fa440d246472d3210aba9286573bd1b87f792",
+      "index": 4,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.insurance.activity",
+        "url": "https://api.jr.mi.com/activity/new/goddess.html?from=insads_mipay_banner&source=p0&mifiInsFrom=insads_mipay_banner#/index"
+      },
+      "addUserId": false,
+      "startTime": "2020-03-10 00:00",
+      "endTime": "2020-03-13 00:00",
+      "timeStamp": "1583721981754",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/0247f414092b63728e210dba99f65237d5d43927a",
+      "index": 4,
+      "entry": {
+        "type": "APP",
+        "id": "mipay.xiangkan.activity",
+        "intentUri": "https://act.browser.miui.com/cms/#page=index&id=f8e78d35-c11d-4e2c-bdc0-739928a21621"
+      },
+      "addUserId": false,
+      "startTime": "2020-03-16 00:00",
+      "endTime": "2020-03-21 00:00",
+      "timeStamp": "1584101601962",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    {
+      "image": "Mibi/003874553547445111f9d7b6f31e561cbfd960769",
+      "index": 5,
+      "entry": {
+        "type": "LOCAL",
+        "id": "otosaas.main",
+        "url": "https://mi.otosaas.com/custompage/5dfb2c02a227297e0082dcd3"
+      },
+      "addUserId": true,
+      "startTime": "2020-01-20 00:00",
+      "endTime": "2020-02-11 00:00",
+      "timeStamp": "1579242083246",
+      "deviceType": "all",
+      "loginType": "all",
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    }
+  ],
+  "financeData": {
+    "category": {
+      "title": {
+        "zh_CN": "钱包专属理财",
+        "zh_TW": "錢包專屬理財",
+        "en_US": "Exclusive Finance"
+      },
+      "summary": {
+        "zh_CN": "更多",
+        "zh_TW": "更多",
+        "en_US": "More"
+      },
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.activity.more",
+        "url": "https://micif.mipay.com/h5/website/financial_product_detail?fundId=00002&orgBankCode=CCB"
+      },
+      "status": "on"
+    },
+    "services": [
+      {
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.activity.miccb",
+          "url": "https://micif.mipay.com/h5/website/financial_product_detail?fundId=00002&orgBankCode=CCB"
+        },
+        "rate": "--",
+        "rateDesc": "近七日年化收益率",
+        "description": "随存随取",
+        "merchant": "零钱卡精选 | 1元起购",
+        "mark1": "银行系",
+        "mark2": "稳健投资",
+        "stampUrl": "",
+        "startTime": "",
+        "endTime": "",
+        "timeStamp": "1568261866245",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.activity.yumin",
+          "url": "https://micif.mipay.com/h5/website/financial_product_detail?fundId=061000011&orgBankCode=YMBANK&fundType=DEPOSIT&billNo=&buyed=false&ref=in-1"
+        },
+        "rate": "3.950",
+        "rateDesc": "每期返息收益率",
+        "description": "灵活存取",
+        "merchant": "金裕存1号 | 满7天付息",
+        "mark1": "储蓄存款",
+        "mark2": "银行精选",
+        "stampUrl": "",
+        "startTime": "2020-03-10 16:20",
+        "endTime": "",
+        "timeStamp": "1583828651419",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "1078942981,934710368,1326286090,1080716361,1340659708,1449121541,77134106,301287141,161072595,2379720302,26694099,182129101,1269368050,221789907,1297673575,250854060,1410022878,478334729,44634932,964865353,105918953,1240868551,876514260,6011097,2202614674,1258709171,268471333,702667276,2379720302,26694099,182129101,1269368050,2330148917,2381038459,2300434802,1259050500,2275064,143582496,779121813",
+        "ratio": "",
+        "modelList": ""
+      }
+    ]
+  },
+  "benefitData": {
+    "column": 2,
+    "category": {
+      "title": {
+        "zh_CN": "超值福利",
+        "zh_TW": "超值福利",
+        "en_US": "Benefit Zone"
+      },
+      "summary": {
+        "zh_CN": "更多",
+        "zh_TW": "更多",
+        "en_US": "More"
+      },
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.fl.vipshop",
+        "url": "https://s.pay.xiaomi.com/?channel=wallet"
+      },
+      "status": "on"
+    },
+    "services": [
+      {
+        "entry": {
+          "type": "APP",
+          "id": "mipay.xiaomi.shop.fl",
+          "intentUri": "http://ab.xiaomi.com/d?url=aHR0cDovL20ubWkuY29tL3Nkaz9waWQ9MTUxMDImY2lkPTIwMDQ2LjAwMDA0JmV4dHJhX3VybD1odHRwJTNBJTJGJTJGYXBpLm0ubWkuY29tJTJGdjElMkZob21lJTJGYWN0aXZpdHlfcGFnZSZleHRyYV92ZXI9MTE2NDYmZmFsbGJhY2s9aHR0cHMlM0ElMkYlMkZzMS5taS5jb20lMkZtJTJGYXBwJTJGaGQlMkZpbmRleC5odG1sJTNGaWQlM0QxMTUxMiUyNm1hc2lkJTNEMjAwNDYuMDAwMDQ%3D"
+        },
+        "backgroundUrl": "Mibi/0caa0499cbfb13b91ae432a5237a50ebb9f41a7ab",
+        "startTime": "2020-01-02 10:10",
+        "endTime": "2020-01-10 20:40",
+        "timeStamp": "1563264827027",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.MICreditCard.fl",
+          "url": "https://tsmactivity.pay.xiaomi.com/views/activity/lmk/fe/#/recommand?"
+        },
+        "backgroundUrl": "Mibi/0305a49b55c690294fdd7b7713ab7688b4d4316dc",
+        "startTime": "2019-08-01 00:00",
+        "endTime": "2019-10-09 10:55",
+        "timeStamp": "1563264827028",
+        "deviceType": "all",
+        "loginType": "all"
+      },
+      {
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.moneyFund.fl",
+          "url": "https://m.jr.mi.com/app/explosiveProduct?from=mipay_licai&downbtn=false"
+        },
+        "backgroundUrl": "Mibi/04aa0b49cffb14b931e439a5271a5aeab9b1b7bac",
+        "startTime": "2019-08-01 00:00",
+        "endTime": "2019-10-25 20:00",
+        "timeStamp": "1563264827029",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.insurance.fl",
+          "url": "https://api.jr.mi.com/insurance/nettel.html?from=insads_mipay_chaozhifuli&source=p0&mifiInsFrom=insads_mipay_chaozhifuli#/jhact"
+        },
+        "backgroundUrl": "Mibi/003c1541142134f060e75a67698e305e77b13ffca",
+        "startTime": "2020-01-02 10:10",
+        "endTime": "2020-01-10 20:40",
+        "timeStamp": "1563264827026",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.weixin.fl",
+          "url": "https://tsmactivity.pay.xiaomi.com/views/activity/busCard/models/config.html?city=SUZHOUTONG&template=1"
+        },
+        "backgroundUrl": "Mibi/02c39477cf6e69d2ba878f78e83447632dd4339eb",
+        "startTime": "2019-10-09 00:00",
+        "endTime": "2019-10-12 18:00",
+        "timeStamp": "1570607319172",
+        "deviceType": "all",
+        "loginType": "all"
+      },
+      {
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.MICreditCard.fl",
+          "url": "https://tsmactivity.pay.xiaomi.com/views/activity/lmk/fe/#/recommand?channelid=INVITE"
+        },
+        "backgroundUrl": "Mibi/07db645f5a85742c216566dd3c19b2228ca305719",
+        "startTime": "2019-10-12 18:00",
+        "endTime": "2019-12-06 12:55",
+        "timeStamp": "1570874360460",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.freeorder.fl",
+          "url": "https://s.pay.xiaomi.com/freeOrder/index?channel=walletWelfare"
+        },
+        "addUserId": false,
+        "backgroundUrl": "Mibi/00f22e453a3a44e2d30c8e7472245bf69b81a8ed2",
+        "startTime": "2020-03-16 15:45",
+        "endTime": "2020-03-16 15:50",
+        "timeStamp": "1572004530053",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "2363639186",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.miicbc.fl",
+          "url": "https://micif.mipay.com/h5/website/activity?ref=xmqb11"
+        },
+        "backgroundUrl": "Mibi/0c288a41d10c44fc03893305403f02b62603e0653",
+        "startTime": "2019-12-04 17:30",
+        "endTime": "2019-12-12 17:55",
+        "timeStamp": "1575451603186",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.weixin.fl",
+          "url": "https://tsmactivity.pay.xiaomi.com/views/activity/busCard/models/config.html?city=ST_1_DAY_PASS&template=20191203"
+        },
+        "backgroundUrl": "Mibi/02f225b5343845e21e0c8c7471845bfe94a43d2be",
+        "startTime": "2020-01-02 10:10",
+        "endTime": "2020-01-10 20:00",
+        "timeStamp": "1575607146762",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.insurance.fl",
+          "url": "https://api.jr.mi.com/activity/new/sepfour.html?from=insads_mipay_chaozhifuli#/index"
+        },
+        "backgroundUrl": "Mibi/02f225b53e384ae2180c8d74738458fe9ba43d2be",
+        "startTime": "2019-12-12 18:05",
+        "endTime": "2019-12-16 23:55",
+        "timeStamp": "1576145066027",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "APP",
+          "id": "mipay.consumerLoan.fl",
+          "intentUri": "https://help.jr.mi.com/activity/active-page?id=42"
+        },
+        "addUserId": false,
+        "backgroundUrl": "Mibi/0e0634e5187b10cd682d0f072b1686de6424121af",
+        "startTime": "2020-01-10 20:40",
+        "endTime": "2020-03-01 00:00",
+        "timeStamp": "1578376935224",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "APP",
+          "id": "mipay.xiaomi.shop.fl",
+          "intentUri": "http://ab.xiaomi.com/d?url=aHR0cDovL20ubWkuY29tL3Nkaz9waWQ9MTUxMDImcm9vdD1jb20ueGlhb21pLnNob3AyLnBsdWdpbi5oZGNoYW5uZWwuUm9vdEZyYWdtZW50JmV4dHJhX3VybD1odHRwJTNBJTJGJTJGYXBpLm0ubWkuY29tJTJGdjElMkZob21lJTJGYWN0aXZpdHlfcGFnZSZleHRyYV92ZXI9MTE4ODUmY2lkPTIwMDQ2LjAwMDAz"
+        },
+        "addUserId": false,
+        "backgroundUrl": "Mibi/08063f45127814cd012d070721a68ad56eb691e2e",
+        "startTime": "2020-01-10 20:40",
+        "endTime": "2020-02-26 11:20",
+        "timeStamp": "1578659418946",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.freeorder.fl",
+          "url": "https://s.pay.xiaomi.com/freeOrder/index?channel=walletWelfare"
+        },
+        "addUserId": false,
+        "backgroundUrl": "Mibi/0e0634e5187b10cd662d0d072e1680de6324121af",
+        "startTime": "2020-03-20 00:00",
+        "endTime": "2020-04-30 00:00",
+        "timeStamp": "1578659614356",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.insurance.fl",
+          "url": "https://api.jr.mi.com/insurance/nettel.html?from=insads_mipay_chaozhifuli&source=p0&mifiInsFrom=insads_mipay_chaozhifuli#/jhact"
+        },
+        "addUserId": false,
+        "backgroundUrl": "Mibi/0bc515e57373c19524e9815c393826e1a5b43e675",
+        "startTime": "2020-01-10 20:40",
+        "endTime": "2020-03-04 00:00",
+        "timeStamp": "1578659648936",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.duokan.fl",
+          "url": "http://www.duokan.com/www/sdk-h5/?page=channel&id=2248&from=qianbao"
+        },
+        "addUserId": false,
+        "backgroundUrl": "Mibi/0e7ec4b51bbb24ec13415998ea56769a9a84391e2",
+        "startTime": "2020-02-26 11:20",
+        "endTime": "",
+        "timeStamp": "1582687161199",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.mibi.fl",
+          "url": "https://static.pay.xiaomi.com/pay-static/mibiactivity/index.html?ref=wallet2"
+        },
+        "addUserId": false,
+        "backgroundUrl": "Mibi/0435d517a518ad5413b4c49c7f3f7b68d0d420c17",
+        "startTime": "2020-04-02 18:00",
+        "endTime": "2020-04-02 18:00",
+        "timeStamp": "1582701640249",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "APP",
+          "id": "mipay.game.fl",
+          "intentUri": "migamecenter://openurl/https://static.g.mi.com/game/newAct/miGameVipV2/index.html?hideTitleBar=1&refresh=true&statusBarWhiteIcon=true&tag=0&membersource=MIpay1&splash=false#/home"
+        },
+        "addUserId": false,
+        "backgroundUrl": "Mibi/0c35d757ad12a454c2b4c29c7c2f7163d18113804",
+        "startTime": "2020-02-28 16:45",
+        "endTime": "",
+        "timeStamp": "1582770221869",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.insurance.fl",
+          "url": "https://api.jr.mi.com/activity/new/goddess.html?from=insads_mipay_chaozhifuli&source=p0&mifiInsFrom=insads_mipay_chaozhifuli#/index"
+        },
+        "addUserId": false,
+        "backgroundUrl": "Mibi/0247f414042b6d72892104ba9ff65d37dbd43927a",
+        "startTime": "2020-03-06 00:00",
+        "endTime": "2020-03-10 00:00",
+        "timeStamp": "1583722189549",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.insurance.fl",
+          "url": "https://api.jr.mi.com/activity/new/zeroact.html?from=insads_mipay_chaozhifuli#/"
+        },
+        "addUserId": false,
+        "backgroundUrl": "Mibi/047ec25518b124ec93415f98e1f67e949bb155a9e",
+        "startTime": "2020-03-03 00:00",
+        "endTime": "2020-03-06 00:00",
+        "timeStamp": "1583722448367",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "APP",
+          "id": "mipay.misports.fl",
+          "intentUri": "mifit://cn.com.hm.health/action?name=webview&url=https://api-aos-cnbj6.huami.com/t/1115 "
+        },
+        "addUserId": false,
+        "backgroundUrl": "Mibi/08c0f0400e45f45541f653dca27ecba9158959300",
+        "startTime": "2020-03-09 11:00",
+        "endTime": "2020-03-18 13:00",
+        "timeStamp": "1583722734644",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "APP",
+          "id": "mipay.misports.fl",
+          "intentUri": "mifit://cn.com.hm.health/action?name=webview&url=https://api-aos-cnbj6.huami.com/t/qwer"
+        },
+        "addUserId": false,
+        "backgroundUrl": "Mibi/0247fa440d2e6472b3210eba92165739d1b87f792",
+        "startTime": "2020-03-05 00:00",
+        "endTime": "2020-03-09 11:00",
+        "timeStamp": "1583722787492",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "APP",
+          "id": "mipay.xiaomi.shop.fl",
+          "intentUri": "http://ab.xiaomi.com/d?url=aHR0cDovL20ubWkuY29tL3Nkaz9waWQ9MTUxMDImcm9vdD1jb20ueGlhb21pLnNob3AyLnBsdWdpbi5oZGNoYW5uZWwuUm9vdEZyYWdtZW50JmV4dHJhX3VybD1odHRwJTNBJTJGJTJGYXBpLm0ubWkuY29tJTJGdjElMkZob21lJTJGYWN0aXZpdHlfcGFnZSZleHRyYV92ZXI9MTQzMTcmY2lkPTIwMDQ2LjAwMDA2"
+        },
+        "addUserId": false,
+        "backgroundUrl": "Mibi/0a7ec25518bd24ec63415798e1c67e999bb1a5a9e",
+        "startTime": "2020-03-09 00:00",
+        "endTime": "",
+        "timeStamp": "1583722953722",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.xiaomi.shop.fl",
+          "url": "https://s1.mi.com/m/app/hd/index.html?id=14225&client_id=180100041080&masid=20046.00007"
+        },
+        "addUserId": false,
+        "backgroundUrl": "Mibi/0247f414062b6a728f2109ba9bf65d37d9d43927a",
+        "startTime": "2020-03-04 00:00",
+        "endTime": "2020-03-09 00:00",
+        "timeStamp": "1583723103899",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.pufa.fl",
+          "url": "https://luckydraw.pay.xiaomi.com/share/?activityId=20200311&ref=chaozhifuli"
+        },
+        "addUserId": false,
+        "backgroundUrl": "Mibi/00c0f4500948fc5599f655dca49ec6a319e4102b0",
+        "startTime": "2020-03-16 15:45",
+        "endTime": "2020-04-02 18:00",
+        "timeStamp": "1584344886589",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "APP",
+          "id": "mipay.Video.fl",
+          "intentUri": "mivideo://video/detail?id=NV000000536601&ref=mi_wallet&back_scheme=mv://Main?id=1"
+        },
+        "addUserId": false,
+        "backgroundUrl": "Mibi/0947fa540d2f6472032106ba92165734d1b86f792",
+        "startTime": "2020-03-20 19:55",
+        "endTime": "2020-04-03 15:45",
+        "timeStamp": "1584705433506",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.mibi1.fl",
+          "url": " https://static.pay.xiaomi.com/pay-static/mibiactivity/index.html?ref=wallet2 "
+        },
+        "addUserId": false,
+        "backgroundUrl": "Mibi/0435d517a518ad5413b4c49c7f3f7b68d0d420c17",
+        "startTime": "2020-04-02 18:00",
+        "endTime": "",
+        "timeStamp": "1585824321571",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "entry": {
+          "type": "APP",
+          "id": "mipay.Video.fl",
+          "intentUri": "mv://Feed?url=feed/op-gyzyct-zt&title=%e9%ab%98%e9%a2%9c%e5%80%bc%e9%99%aa%e4%bd%a0%e8%bf%8e%e6%98%a5%e5%a4%a9&ref=mi_wallet&back_scheme=mv://Main?id=1"
+        },
+        "addUserId": false,
+        "backgroundUrl": "Mibi/003084f916bad116b72257500108297dd24416984",
+        "startTime": "2020-04-03 15:40",
+        "endTime": "",
+        "timeStamp": "1585899873970",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      }
+    ]
+  },
+  "discountData": {
+    "category": {
+      "title": {
+        "zh_CN": "防疫保险",
+        "zh_TW": "防疫保險",
+        "en_US": "Epidemic insurance"
+      },
+      "summary": {
+        "zh_CN": "更多",
+        "zh_TW": "更多",
+        "en_US": "More"
+      },
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.insurancemore.activity",
+        "url": "https://help.jr.mi.com/activity/active-page?id=133"
+      },
+      "status": "on"
+    },
+    "services": [
+      {
+        "title": {
+          "zh_CN": "小米众筹",
+          "zh_TW": "小米众筹",
+          "en_US": "小米众筹"
+        },
+        "summary": {
+          "zh_CN": "好物众筹 精致生活",
+          "zh_TW": "好物众筹 精致生活",
+          "en_US": "好物众筹 精致生活"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.youpinzc.activity",
+          "url": "https://m.youpin.mi.com/w/crowdfunding?_rt=weex&pageid=5&source=xmqb_yhzc"
+        },
+        "image": "Mibi/06e954172a7154008b07ab4203d97620b5540aef0",
+        "startTime": "2019-08-01 00:00",
+        "endTime": "2020-01-06 15:50",
+        "timeStamp": "1563264827030",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "title": {
+          "zh_CN": "小米有品限时抢 ",
+          "zh_TW": "小米有品限时抢 ",
+          "en_US": "小米有品限时抢 "
+        },
+        "summary": {
+          "zh_CN": "品质爆品低价秒杀",
+          "zh_TW": "品质爆品低价秒杀",
+          "en_US": "品质爆品低价秒杀"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.youpinxs.activity",
+          "url": "https://m.youpin.mi.com/w/secbuy?_rt=weex&activity_id&source=xmqb_yhxsg"
+        },
+        "image": "Mibi/0d05ac4b5dc29429a3dd707716bb7d8cb9645a813",
+        "startTime": "2019-08-01 00:00",
+        "endTime": "2020-01-06 15:50",
+        "timeStamp": "1563264827031",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "title": {
+          "zh_CN": "9.9元起的幸福",
+          "zh_TW": "9.9元起的幸福",
+          "en_US": "9.9元起的幸福"
+        },
+        "summary": {
+          "zh_CN": "小米商城精品好物",
+          "zh_TW": "小米商城精品好物",
+          "en_US": "小米商城精品好物"
+        },
+        "entry": {
+          "type": "APP",
+          "id": "mipay.xiaomisc.activity",
+          "intentUri": "http://ab.xiaomi.com/d?url=aHR0cDovL20ubWkuY29tL3Nkaz9waWQ9MTUxMDImY2lkPTIwMDQ2LjAwMDAyJmV4dHJhX3VybD1odHRwJTNBJTJGJTJGYXBpLm0ubWkuY29tJTJGdjElMkZob21lJTJGYWN0aXZpdHlfcGFnZSZleHRyYV92ZXI9MTE2NDcmZmFsbGJhY2s9aHR0cHMlM0ElMkYlMkZzMS5taS5jb20lMkZtJTJGYXBwJTJGaGQlMkZpbmRleC5odG1sJTNGaWQlM0QxMTM2NiUyNm1hc2lkJTNEMjAwNDYuMDAwMDI%3D"
+        },
+        "image": "Mibi/0daa0b59cffe14b981e430a527ba5ae7b9b117bac",
+        "startTime": "2019-09-30 17:00",
+        "endTime": "2020-01-06 15:50",
+        "timeStamp": "1569835558575",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "title": {
+          "zh_CN": "天上掉下免单大奖",
+          "zh_TW": "天上掉下免單大獎",
+          "en_US": "Falling pie in the sky"
+        },
+        "summary": {
+          "zh_CN": "最高得￥1499支付免单",
+          "zh_TW": "最高得￥1499支付免單",
+          "en_US": " Up to ¥1499 , a free order"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.yiyuancj.activity",
+          "url": "https://s.pay.xiaomi.com/freeOrder/index?channel=walletOffers"
+        },
+        "image": "Mibi/097bf4cabbd5b4551cfa9d3e39d3f738c90405e0d",
+        "startTime": "2019-10-25 00:00",
+        "endTime": "2019-11-30 23:55",
+        "timeStamp": "1572004678288",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "title": {
+          "zh_CN": "28888元体验金等待领取",
+          "zh_TW": "28888元体验金等待领取",
+          "en_US": "28888元体验金等待领取"
+        },
+        "summary": {
+          "zh_CN": "我出钱，你拿收益！",
+          "zh_TW": "我出钱，你拿收益！",
+          "en_US": "我出钱，你拿收益！"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.weixin28888.activity",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzAxOTYxOTcwOA==&mid=2649540411&idx=3&sn=c224b24ae9efdb98a750b9fc1a842a9e&chksm=83dc2d28b4aba43e94e2b07de1a4636016a6e00000bb3466c555d42ebdf7ac7c810c9caeaa19&token=1658470467&lang=zh_CN#rd"
+        },
+        "addUserId": false,
+        "image": "Mibi/0a3c14711b2b3ff01ce75f6768fe315f71440c905",
+        "startTime": "2020-01-06 15:40",
+        "endTime": "2020-02-10 16:00",
+        "timeStamp": "1578296353428",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "title": {
+          "zh_CN": "免费领取小米9手机",
+          "zh_TW": "免费领取小米9手机",
+          "en_US": "免费领取小米9手机"
+        },
+        "summary": {
+          "zh_CN": "每月开奖一次",
+          "zh_TW": "每月开奖一次",
+          "en_US": "每月开奖一次"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.weixinmi9.activity",
+          "url": "https://tsmactivity.pay.xiaomi.com/views/activity/busCard/models/config.html?city=ST_1_DAY_PASS&template=20191203"
+        },
+        "addUserId": false,
+        "image": "Mibi/0e0634e5107b14cd642d040720168ede6224121af",
+        "startTime": "2020-01-06 15:40",
+        "endTime": "2020-02-12 16:15",
+        "timeStamp": "1578296519618",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "title": {
+          "zh_CN": "已有18张公交卡支持移卡",
+          "zh_TW": "已有18张公交卡支持移卡",
+          "en_US": "已有18张公交卡支持移卡"
+        },
+        "summary": {
+          "zh_CN": "来看看有你的城市吗",
+          "zh_TW": "来看看有你的城市吗",
+          "en_US": "来看看有你的城市吗"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.weixinbus.activity",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzAxOTYxOTcwOA==&mid=2649540316&idx=1&sn=b37a75bbc0d3f17983012a8cb217c0ae&chksm=83dc2ccfb4aba5d97ab47a819d0dd6c3234f5c4a0bfe27b85a1f4c99bd4824cc1ec35a74a21f&token=1658470467&lang=zh_CN#rd"
+        },
+        "addUserId": false,
+        "image": "Mibi/093c1541142b34f0f0e75b67691e305e77b17ffca",
+        "startTime": "2020-01-06 15:40",
+        "endTime": "2020-02-12 16:15",
+        "timeStamp": "1578296584754",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "title": {
+          "zh_CN": "让你的手机帮你交话费！",
+          "zh_TW": "让你的手机帮你交话费！",
+          "en_US": "让你的手机帮你交话费！"
+        },
+        "summary": {
+          "zh_CN": "小爱同学——",
+          "zh_TW": "小爱同学——",
+          "en_US": "小爱同学——"
+        },
+        "entry": {
+          "type": "APP",
+          "id": "mipay.weixinAI.activity",
+          "intentUri": "https://mp.weixin.qq.com/s?__biz=MzAxMDMwODY2NQ==&mid=2247483693&idx=1&sn=42749f378e0d7f27347368ff9cc31120&chksm=9b531c7bac24956d86b00b466f12d1684497e997ebcbb8e33ae5b1cab3531f72d4e197d57383&token=1982617795&lang=zh_CN#rd"
+        },
+        "addUserId": false,
+        "image": "Mibi/0e0634e51a7b17cd622d0d07291684de6724121af",
+        "startTime": "2020-01-14 10:30",
+        "endTime": "2020-02-12 16:15",
+        "timeStamp": "1578969019957",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "title": {
+          "zh_CN": "小米钱包eID的开通及使用方法",
+          "zh_TW": "小米钱包eID的开通及使用方法",
+          "en_US": "小米钱包eID的开通及使用方法"
+        },
+        "summary": {
+          "zh_CN": "eID最全科普",
+          "zh_TW": "eID最全科普",
+          "en_US": "eID最全科普"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.weixineID.activity",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzAxOTYxOTcwOA==&mid=2649540444&idx=2&sn=100633f782f9d639eb946a01c8ac4141&chksm=83dc2d4fb4aba4599493d2d21b75a6e5de790619d5ffe0b9d45782766aa6bc0a006fe7373f5a&token=664924454&lang=zh_CN#rd"
+        },
+        "addUserId": false,
+        "image": "Mibi/013c1551142534f060e75867698e305077b19ffca",
+        "startTime": "2020-01-14 10:30",
+        "endTime": "2020-02-12 16:15",
+        "timeStamp": "1578969170856",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "title": {
+          "zh_CN": "肺炎疫情实时动态",
+          "zh_TW": "肺炎疫情实时动态",
+          "en_US": "肺炎疫情实时动态"
+        },
+        "summary": {
+          "zh_CN": "武汉加油！中国加油！",
+          "zh_TW": "武汉加油！中国加油！",
+          "en_US": "武汉加油！中国加油！"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.epidemic.activity",
+          "url": "https://mi.otosaas.com/yiqing/"
+        },
+        "addUserId": false,
+        "image": "Mibi/0c387455354a445101f9d3b6f3be561bbfd910769",
+        "startTime": "2020-02-12 16:00",
+        "endTime": "2020-03-13 16:45",
+        "timeStamp": "1581494386164",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "title": {
+          "zh_CN": "疫情健康咨询",
+          "zh_TW": "疫情健康咨询",
+          "en_US": "疫情健康咨询"
+        },
+        "summary": {
+          "zh_CN": "抗击疫情 实时救助",
+          "zh_TW": "抗击疫情 实时救助",
+          "en_US": "抗击疫情 实时救助"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.weiyi.activity",
+          "url": "https://qianbao.allinpay.com/guahao/channelCount?channelId=tl295"
+        },
+        "addUserId": false,
+        "image": "Mibi/07c515557b70c49543e9885c36c827e2ae32731eb",
+        "startTime": "2020-02-12 16:00",
+        "endTime": "2020-03-13 16:45",
+        "timeStamp": "1581494542453",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "title": {
+          "zh_CN": "周边疫情动态",
+          "zh_TW": "周边疫情动态",
+          "en_US": "周边疫情动态"
+        },
+        "summary": {
+          "zh_CN": "关注疫情场所 提高安全意识",
+          "zh_TW": "关注疫情场所 提高安全意识",
+          "en_US": "关注疫情场所 提高安全意识"
+        },
+        "entry": {
+          "type": "APP",
+          "id": "mipay.epidemicmap.activity",
+          "intentUri": "https://cache.amap.com/activity/partner/plague-map/index.html?isjump=false&fromchannel=xiaomipay"
+        },
+        "addUserId": false,
+        "image": "Mibi/0435d417a018a4541eb4c99c7b3f7168dfd420c17",
+        "startTime": "2020-02-19 16:30",
+        "endTime": "2020-03-13 16:45",
+        "timeStamp": "1582023699064",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "title": {
+          "zh_CN": "口罩预约购买",
+          "zh_TW": "口罩预约购买",
+          "en_US": "口罩预约购买"
+        },
+        "summary": {
+          "zh_CN": "同心协力 共克时疫",
+          "zh_TW": "同心协力 共克时疫",
+          "en_US": "同心协力 共克时疫"
+        },
+        "entry": {
+          "type": "APP",
+          "id": "mipay.mask.activity",
+          "intentUri": "youpin://m.youpin.mi.com/main?source=xmqb_zficon0603"
+        },
+        "addUserId": false,
+        "image": "Mibi/0435d417a618a55419b4c69c7d3f7a68dbd420c17",
+        "startTime": "2020-02-14 16:40",
+        "endTime": "2020-03-13 16:45",
+        "timeStamp": "1582101094272",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "title": {
+          "zh_CN": "首月1元 保障600万",
+          "zh_TW": "首月1元 保障600万",
+          "en_US": "首月1元 保障600万"
+        },
+        "summary": {
+          "zh_CN": "新冠肺炎专享0免赔额，不限定点医院等",
+          "zh_TW": "新冠肺炎专享0免赔额，不限定点医院等",
+          "en_US": "新冠肺炎专享0免赔额，不限定点医院等"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.yiliaoxian.activity",
+          "url": "https://api.jr.mi.com/insurance/frame.html?from=insads_mipay_yiqing#/detail/3402344008930820197"
+        },
+        "addUserId": false,
+        "image": "Mibi/0923505a9b0e14b53146cf3cd924bb6a05931ca40",
+        "startTime": "2020-02-12 16:00",
+        "endTime": "",
+        "timeStamp": "1582101149168",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "title": {
+          "zh_CN": "免费领新冠保险",
+          "zh_TW": "免费领新冠保险",
+          "en_US": "免费领新冠保险"
+        },
+        "summary": {
+          "zh_CN": "抗击新冠  共克时艰",
+          "zh_TW": "抗击新冠  共克时艰",
+          "en_US": "抗击新冠  共克时艰"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.xinguanxian.activity",
+          "url": "https://api.jr.mi.com/activity/new/freeshop.html?from=insads_mipay_yqzq#/detail/3396250380198215791"
+        },
+        "addUserId": false,
+        "image": "Mibi/0023555a9e0913b53f46c73cd5c4b06a07b4149b0",
+        "startTime": "2020-02-21 09:40",
+        "endTime": "",
+        "timeStamp": "1582249202026",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "title": {
+          "zh_CN": "声明",
+          "zh_TW": "声明",
+          "en_US": "声明"
+        },
+        "summary": {
+          "zh_CN": "关于“手机POS创新应用”入选金融科技监管沙箱项目的声明",
+          "zh_TW": "关于“手机POS创新应用”入选金融科技监管沙箱项目的声明",
+          "en_US": "关于“手机POS创新应用”入选金融科技监管沙箱项目的声明"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.statement.activity",
+          "url": "https://tsmactivity.pay.xiaomi.com/views/activity/busCard/models/config.html?city=HZT&template=20200313"
+        },
+        "addUserId": false,
+        "image": "Mibi/00c0f4500c48f25593f654dcac9ecca31de4102b0",
+        "startTime": "2020-03-13 00:00",
+        "endTime": "2020-03-17 00:00",
+        "timeStamp": "1584092144093",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "1306767099,161072595",
+        "ratio": "",
+        "modelList": ""
+      },
+      {
+        "title": {
+          "zh_CN": "领保障 赢手机",
+          "zh_TW": "领保障 赢手机",
+          "en_US": "领保障 赢手机"
+        },
+        "summary": {
+          "zh_CN": "领最高200万复工守护保险",
+          "zh_TW": "领最高200万复工守护保险",
+          "en_US": "领最高200万复工守护保险"
+        },
+        "entry": {
+          "type": "WEB",
+          "id": "mipay.suijixian.activity",
+          "url": "https://api.jr.mi.com/insurance/nettel.html?from=insads_mipay_yqzq&source=p0&mifiInsFrom=insads_mipay_yqzq#/jhact"
+        },
+        "addUserId": false,
+        "image": "Mibi/003084f918badd16bc2256500e08277dd54416984",
+        "startTime": "2020-03-17 19:35",
+        "endTime": "",
+        "timeStamp": "1584445022125",
+        "deviceType": "all",
+        "loginType": "all",
+        "whiteList": "",
+        "ratio": "",
+        "modelList": ""
+      }
+    ]
+  },
+  "allService": {
+    "title": "全部",
+    "image": "Mibi/091955ffbbef6fcfc4795a6773e8a7979cf42cde6",
+    "entry": {
+      "id": "mipay.allService",
+      "type": "LOCAL",
+      "extra": {
+        "allService": []
+      }
+    }
+  },
+  "bootpageData": [
+    {
+      "image": "Mibi/067af461e2363671f5d2f20783724694d2143bb31",
+      "displaySecond": 4,
+      "startTime": "2019-11-22 16:00",
+      "endTime": "2019-11-29 00:00",
+      "timeStamp": "1569479496982",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.BusCard2rd.kaiping",
+        "url": "https://tsmactivity.pay.xiaomi.com/views/activity/mipay/20190911/index.html?channelid=Mipay_BusCard2rd_XMQBKP"
+      }
+    },
+    {
+      "image": "Mibi/08043e4baf09347222b6bde27adc1683bda4efcfc",
+      "displaySecond": 5,
+      "startTime": "2019-11-07 15:20",
+      "endTime": "2019-11-11 23:55",
+      "timeStamp": "1573111419544",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.wallet.kaiping",
+        "url": "https://static.pay.xiaomi.com/pay-static/activity1111/index.html?ref=0"
+      }
+    },
+    {
+      "image": "Mibi/09043e5baf03347292b6bce27a7c168bbda4cfcfc",
+      "displaySecond": 4,
+      "startTime": "2019-11-12 09:45",
+      "endTime": "2019-11-22 14:55",
+      "timeStamp": "1573522859386",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.miccb.kaiping",
+        "url": "https://micif.mipay.com/h5/website/ccbActivity?ref=qbkp"
+      }
+    },
+    {
+      "image": "Mibi/04f22e553a3344e2330c837472445bf09b81d8ed2",
+      "displaySecond": 4,
+      "startTime": "2019-12-02 16:15",
+      "endTime": "2019-12-12 23:55",
+      "timeStamp": "1575274592456",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.wallet.kaiping",
+        "url": "https://luckydraw.pay.xiaomi.com/?id=20191212&ref=3"
+      }
+    },
+    {
+      "image": "Mibi/02f225b5383845e2130c82747e8452fe93a43d2be",
+      "displaySecond": 4,
+      "startTime": "2019-12-26 00:00",
+      "endTime": "2019-12-27 12:05",
+      "timeStamp": "1576843714848",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.MicreditCard.kaiping",
+        "url": "http://tsmactivity.pay.xiaomi.com/views/activity/credit816/index.html?channelid=KAIPING"
+      }
+    },
+    {
+      "image": "Mibi/073c1541142434f020e75967696e305777b15ffca",
+      "displaySecond": 4,
+      "startTime": "2019-12-24 11:15",
+      "endTime": "2019-12-25 23:55",
+      "timeStamp": "1577157424783",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.flzqsdj.kaiping",
+        "url": "http://s.pay.xiaomi.com/?channel=sdhd#/"
+      }
+    },
+    {
+      "image": "Mibi/0a3c1471122b3ef019e7586768fe385f7c440c905",
+      "displaySecond": 4,
+      "startTime": "2020-01-06 00:00",
+      "endTime": "2020-02-08 00:00",
+      "timeStamp": "1577419392705",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.miccb.kaiping",
+        "url": "https://micif.mipay.com/h5/website/ccbFundActivity/activity23fb#/?ref=QBkaiping"
+      }
+    },
+    {
+      "image": "Mibi/0e0634e5177b1fcd692d04072b168cde6624121af",
+      "displaySecond": 4,
+      "startTime": "2020-01-06 00:00",
+      "endTime": "2020-01-01 00:00",
+      "timeStamp": "1577706206829",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.8DQQ.kaiping",
+        "url": "https://help.jr.mi.com/activity/active-page?id=37"
+      }
+    },
+    {
+      "image": "Mibi/0e0634e5147b1ccd682d05072a1688de6b24121af",
+      "displaySecond": 4,
+      "startTime": "2019-12-31 17:45",
+      "endTime": "2020-01-06 00:00",
+      "timeStamp": "1577931975905",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.8DQQ.kaiping",
+        "url": "https://help.jr.mi.com/activity/active-page?id=37"
+      }
+    },
+    {
+      "image": "Mibi/0c063f45127c14cdc12d0e0721368ad86eb621e2e",
+      "displaySecond": 4,
+      "startTime": "2020-01-20 00:00",
+      "endTime": "2020-01-23 00:00",
+      "timeStamp": "1578661021051",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.8DQQ.kaiping",
+        "url": "https://help.jr.mi.com/activity/active-page?id=49"
+      }
+    },
+    {
+      "image": "Mibi/0e0635e5167b1fcd652d0b0724168bde6b24121af",
+      "displaySecond": 4,
+      "startTime": "2020-01-17 16:20",
+      "endTime": "2020-01-19 18:20",
+      "timeStamp": "1579249227084",
+      "fullScreen": false,
+      "entry": {
+        "type": "APP",
+        "id": "mipay.browser.kaiping",
+        "intentUri": "mibrowser://home/webapp?web_url=https%3A%2F%2Fhd.browser.miui.com%2Fhds%2F20191223%2F%23_miui_fullscreen%3D2%26_miui_orientation%3Dportrait%3F_miui_fullscreen%3D2%26_miui_orientation%3Dportrait%26source%3Dbrowser2020jikahuodong_qianbaokaipin&appid=com.xiaomi&params=%7Bname%3A%20%27%E9%9B%86%E7%A6%8F%E5%8D%A1%20%E7%93%9C%E5%88%86%E7%99%BE%E4%B8%87%E7%8E%B0%E9%87%91%27%2C%20url%3A%20%27https%3A%2F%2Fhd.browser.miui.com%2Fhds%2F20191223%2F%23_miui_fullscreen%3D2%26_miui_orientation%3Dportrait%3F_miui_fullscreen%3D2%26_miui_orientation%3Dportrait%26source%3Dbrowser2020jikahuodong_qianbaokaipin%27%7D"
+      }
+    },
+    {
+      "image": "Mibi/0e0635e5157b12cd622d0e07281680de6a24121af",
+      "displaySecond": 4,
+      "startTime": "2020-01-18 18:20",
+      "endTime": "2020-02-03 00:00",
+      "timeStamp": "1579429226747",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.wallet.luckydraw",
+        "url": "https://luckydraw.pay.xiaomi.com/?activityId=202020&ref=kaiping"
+      }
+    },
+    {
+      "image": "Mibi/0bc514e57873ca952fe9815c373825e1a2b43e675",
+      "displaySecond": 4,
+      "startTime": "2020-02-08 00:00",
+      "endTime": "2020-02-09 00:00",
+      "timeStamp": "1581047251558",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.miccb.kaiping",
+        "url": "https://micif.mipay.com/h5/website/ccbFundActivity/activity23fb#/?ref=QBkaiping"
+      }
+    },
+    {
+      "image": "Mibi/0a3c1471122b3ef019e7586768fe385f7c440c905",
+      "displaySecond": 4,
+      "startTime": "2020-02-09 00:00",
+      "endTime": "2020-02-10 16:00",
+      "timeStamp": "1581047744412",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.miccb.kaiping",
+        "url": "https://micif.mipay.com/h5/website/ccbFundActivity/activity23fb#/?ref=QBkaiping"
+      }
+    },
+    {
+      "image": "Mibi/0bc515e57073c5952ae9805c3d382ae1abb43e675",
+      "displaySecond": 4,
+      "startTime": "2020-02-13 00:00",
+      "endTime": "2020-02-17 00:00",
+      "timeStamp": "1581503380180",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.insurance.kaiping",
+        "url": "https://api.jr.mi.com/insurance/frame.html?source=p0&from=insads_mipay_kaiping#/detail/3358573178891796481"
+      }
+    },
+    {
+      "image": "Mibi/0435d417a618a25414b4c19c733f7f68d1d420c17",
+      "displaySecond": 4,
+      "startTime": "2020-02-17 00:00",
+      "endTime": "2020-02-22 00:00",
+      "timeStamp": "1581667526036",
+      "fullScreen": false,
+      "entry": {
+        "type": "APP",
+        "id": "mipay.consumerLoan.kaiping",
+        "intentUri": "https://help.jr.mi.com/activity/active-page?id=94"
+      }
+    },
+    {
+      "image": "Mibi/0f7ec24518b024ec03415898e1267e939bb1c5a9e",
+      "displaySecond": 4,
+      "startTime": "2020-02-22 00:00",
+      "endTime": "2020-02-28 15:00",
+      "timeStamp": "1582278675878",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.MicreditCard.kaiping",
+        "url": "http://tsmactivity.pay.xiaomi.com/views/activity/credit816/index.html?channelid=AD3&subchannel=QBkaiping"
+      }
+    },
+    {
+      "image": "Mibi/067ec25518b724ec23415098e1167e9c9bb195a9e",
+      "displaySecond": 4,
+      "startTime": "2020-02-28 00:00",
+      "endTime": "2020-03-01 00:00",
+      "timeStamp": "1582873290421",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.youpin.kaiping",
+        "url": "https://m.xiaomiyoupin.com/w/mifansday?_rt=weex&pageid=2311"
+      }
+    },
+    {
+      "image": "Mibi/0435d417a618a25414b4c19c733f7f68d1d420c17",
+      "displaySecond": 4,
+      "startTime": "2020-03-02 10:05",
+      "endTime": "2020-03-09 00:00",
+      "timeStamp": "1583114927345",
+      "fullScreen": false,
+      "entry": {
+        "type": "APP",
+        "id": "mipay.consumerLoan.kaiping",
+        "intentUri": "https://help.jr.mi.com/activity/active-page?id=94"
+      }
+    },
+    {
+      "image": "Mibi/0247f414072b637285210bba99f65437d4d43927a",
+      "displaySecond": 4,
+      "startTime": "2020-03-09 10:25",
+      "endTime": "2020-03-12 00:00",
+      "timeStamp": "1583720783489",
+      "fullScreen": true,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.duokan.kaiping",
+        "url": "http://www.duokan.com/www/sdk-h5/?page=channel&id=2248&from=qianbao"
+      }
+    },
+    {
+      "image": "Mibi/0bc0f0400e45f45531f65ddca23ecba4158929300",
+      "displaySecond": 4,
+      "startTime": "2020-03-12 00:00",
+      "endTime": "2020-03-16 00:00",
+      "timeStamp": "1583734163084",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.mibi.kaiping",
+        "url": "https://static.pay.xiaomi.com/pay-static/mibiactivity/index.html?ref=startup"
+      }
+    },
+    {
+      "image": "Mibi/0547fa540d256472332102ba92365734d1b89f792",
+      "displaySecond": 4,
+      "startTime": "2020-04-01 16:00",
+      "endTime": "2020-04-02 11:00",
+      "timeStamp": "1584344098794",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.pufa.kaiping",
+        "url": "https://luckydraw.pay.xiaomi.com/share/?activityId=20200311&ref=QBkaiping"
+      }
+    },
+    {
+      "image": "Mibi/08231445f21544e843c5b561230011e8bb20b18c3",
+      "displaySecond": 4,
+      "startTime": "2020-03-27 19:00",
+      "endTime": "2020-04-01 16:00",
+      "timeStamp": "1585307502426",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.baoxianfuli.kaiping",
+        "url": "https://api.jr.mi.com/insurance/nettel.html?from=insads_mipay_kaiping&source=p0&mifiInsFrom=insads_mipay_kaiping#/jhact"
+      }
+    },
+    {
+      "image": "Mibi/0775b95dee171427e25220987d0f60eb8d8c71cfa",
+      "displaySecond": 4,
+      "startTime": "2020-04-03 00:00",
+      "endTime": "2020-04-08 00:00",
+      "timeStamp": "1585828995813",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.mifencard1.activity",
+        "url": "https://tsmactivity.pay.xiaomi.com/views/activity/mipay/2020/index.html?channelid=XMSC&subchannel=QBkaiping"
+      }
+    },
+    {
+      "image": "Mibi/0023545a9d0914b53d46c03cdac4b76a0fb4149b0",
+      "displaySecond": 4,
+      "startTime": "2020-04-08 00:00",
+      "endTime": "2020-04-09 00:00",
+      "timeStamp": "1586257766134",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.insurance.kaiping",
+        "url": "https://api.jr.mi.com/activity/new/ceremony.html?from=insads_mipay_kaiping#/index"
+      }
+    },
+    {
+      "image": "Mibi/0430844914bcd41691225c500978287edfab60d60",
+      "displaySecond": 4,
+      "startTime": "2020-04-09 00:00",
+      "endTime": "2020-04-13 00:00",
+      "timeStamp": "1586350328405",
+      "fullScreen": false,
+      "entry": {
+        "type": "APP",
+        "id": "mipay.shangcheng.kaiping",
+        "intentUri": "https://help.jr.mi.com/activity/active-page?id=149"
+      }
+    },
+    {
+      "image": "Mibi/08231445f21544e843c5b561230011e8bb20b18c3",
+      "displaySecond": 4,
+      "startTime": "2020-04-13 00:00",
+      "endTime": "2020-04-16 23:00",
+      "timeStamp": "1586519102611",
+      "fullScreen": false,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.insurance.kaiping",
+        "url": "https://api.jr.mi.com/insurance/nettel.html?from=insads_mipay_kaiping&source=p0&mifiInsFrom=insads_mipay_kaiping#/jhact"
+      }
+    }
+  ],
+  "openscreenData": [
+    {
+      "image": "Mibi/038b4a4f39bf049df218c4ee8937f0560a40a7b30",
+      "displayTimes": 2,
+      "startTime": "2019-11-07 10:00",
+      "endTime": "2019-11-12 00:00",
+      "timeStamp": "1573092620208",
+      "intervalMinutes": 60,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.miccb.tanchuang",
+        "url": "https://micif.mipay.com/h5/website/ccbActivity?ref=xmqbkptc"
+      }
+    },
+    {
+      "image": "Mibi/027ec24518b024ece3415098e1467e939bb115a9e",
+      "displayTimes": 3,
+      "startTime": "2020-02-26 09:50",
+      "endTime": "2020-02-28 09:50",
+      "timeStamp": "1582278909536",
+      "intervalMinutes": 1,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.insurance.tanchuang",
+        "url": "https://api.jr.mi.com/activity/new/freeshop.html?from=insads_mipay_popbox#/detail/3396250380198215791"
+      }
+    },
+    {
+      "image": "Mibi/0e7ec5b517bb2cec1e415a98ed567f9a9784391e2",
+      "displayTimes": 3,
+      "startTime": "2020-02-28 00:00",
+      "endTime": "2020-03-01 00:00",
+      "timeStamp": "1582702351413",
+      "intervalMinutes": 5,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.mibi.tanchuang",
+        "url": "https://static.pay.xiaomi.com/pay-static/mibiactivity/index.html?ref=tanchuang"
+      }
+    },
+    {
+      "image": "Mibi/037ec25518ba24ecb3415898e1867e9e9bb1f5a9e",
+      "displayTimes": 3,
+      "startTime": "2020-03-05 00:00",
+      "endTime": "2020-03-12 00:00",
+      "timeStamp": "1583724674506",
+      "intervalMinutes": 10,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.Luckydraw.tanchuang",
+        "url": "https://luckydraw.pay.xiaomi.com/?activityId=20200304&ref=qbtc"
+      }
+    },
+    {
+      "image": "Mibi/02c0f0400e4ef45541f655dca28ecba9158959300",
+      "displayTimes": 3,
+      "startTime": "2020-03-12 16:35",
+      "endTime": "2020-03-19 21:20",
+      "timeStamp": "1584002248228",
+      "intervalMinutes": 5,
+      "entry": {
+        "type": "APP",
+        "id": "mipay.cmb.tanchuang",
+        "intentUri": "market://details?id=cmb.pb&back=true&ref=wallet&startDownload=true&ext_apkChannel=CMBMobileBank_channel134&refs=qianbao"
+      }
+    },
+    {
+      "image": "Mibi/0a75b4dded181727c7522f98761f62ec8ee42fd09",
+      "displayTimes": 3,
+      "startTime": "2020-04-01 16:00",
+      "endTime": "2020-04-02 00:00",
+      "timeStamp": "1585657118224",
+      "intervalMinutes": 5,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.bxfuli.tanchuang",
+        "url": "https://api.jr.mi.com/insurance/nettel.html?from=insads_mipay_kaiping&source=p0&mifiInsFrom=insads_mipay_kaiping#/jhact"
+      }
+    },
+    {
+      "image": "Mibi/0075b94dee1b1427325220987d1f60ec8d8c21cfa",
+      "displayTimes": 3,
+      "startTime": "2020-04-02 00:00",
+      "endTime": "2020-04-04 00:00",
+      "timeStamp": "1585731811889",
+      "intervalMinutes": 5,
+      "entry": {
+        "type": "APP",
+        "id": "mipay.mishifenqi.tanchuang",
+        "intentUri": "https://m.mi.com/commodity/detail/10000213"
+      }
+    },
+    {
+      "image": "Mibi/0730844914b5d4161122545009b82872dfab40d60",
+      "displayTimes": 3,
+      "startTime": "2020-04-05 00:00",
+      "endTime": "2020-04-08 00:00",
+      "timeStamp": "1586017519668",
+      "intervalMinutes": 5,
+      "entry": {
+        "type": "APP",
+        "id": "mipay.insurance.tanchuang",
+        "intentUri": "https://api.jr.mi.com/activity/new/ceremony.html?from=insads_mipay_popbox#/index"
+      }
+    },
+    {
+      "image": "Mibi/003084f911bade16b5225b500d08277dd04416984",
+      "displayTimes": 3,
+      "startTime": "2020-04-08 00:00",
+      "endTime": "2020-04-13 00:00",
+      "timeStamp": "1586257995139",
+      "intervalMinutes": 5,
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.wallet.tanchuang",
+        "url": "https://tsmactivity.pay.xiaomi.com/views/activity/mipay/2020/index.html?channelid=XMSC&subchannel=QBtanchuang"
+      }
+    }
+  ],
+  "goodsData": {
+    "category": {
+      "title": {
+        "zh_CN": "分期好物",
+        "zh_TW": "好物1推荐",
+        "en_US": "goods recommand"
+      },
+      "summary": {
+        "zh_CN": "更多",
+        "zh_TW": "更多",
+        "en_US": "More"
+      },
+      "entry": {
+        "type": "LOCAL",
+        "id": "mipay.activity.more"
+      },
+      "status": "on"
+    },
+    "subCategory": {
+      "entry": {
+        "type": "WEB",
+        "id": "abcaaa",
+        "url": "http://www.baidu.com"
+      },
+      "background": " Mibi/003084f916badd16b3225f500908207dd14416984",
+      "title": "精选推荐",
+      "subTitle": "6期/12期/24期限时免息",
+      "timeStamp": "1585532911233",
+      "titleColor": "#FFFFFF",
+      "subTitleColor": "#FFFFFF",
+      "startTime": "2020-01-20 01:15",
+      "endTime": "2020-12-25 15:55",
+      "summary": "更多",
+      "summaryTextColor": "#FFFFFF",
+      "summaryBackgroundColor": "#2384E6",
+      "deviceType": "all",
+      "loginType": "all",
+      "addUserId": false,
+      "whiteList": "",
+      "ratio": "",
+      "modelList": ""
+    },
+    "services": []
+  },
+  "threeGridData": {
+    "column": 2,
+    "category": {
+      "title": {
+        "zh_CN": "超值福利三宫格",
+        "zh_TW": "超值福利三宫格",
+        "en_US": "Benefit Three Grid Zone"
+      },
+      "summary": {
+        "zh_CN": "更多",
+        "zh_TW": "更多",
+        "en_US": "More"
+      },
+      "entry": {
+        "type": "WEB",
+        "id": "mipay.fl.vipshop",
+        "url": "http://www.baidu.com"
+      },
+      "status": "on"
+    },
+    "services": []
+  },
+  "moduleList": [
+    {
+      "type": 2,
+      "moduleName": "goodsData",
+      "index": 0
+    },
+    {
+      "type": 5,
+      "moduleName": "discountData",
+      "index": 1
+    },
+    {
+      "type": 3,
+      "moduleName": "threeGridData",
+      "index": 2
+    },
+    {
+      "type": 4,
+      "moduleName": "benefitData",
+      "index": 3
+    },
+    {
+      "type": 1,
+      "moduleName": "financeData",
+      "index": 4
+    }
+  ]
+}
